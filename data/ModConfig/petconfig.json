@@ -1,0 +1,21 @@
+{
+  "Difficulty": {
+    "petMaxHpModifier": 0.0,
+    "petDamageMultiplier": 1.0,
+    "petSpeedMultiplier": 1.0,
+    "tamingMultiplier": 1.0,
+    "obedienceMultiplier": 1.0,
+    "disobedienceMultiplier": 1.0,
+    "growingMultiplier": 1.0,
+    "tamingMultiplierIncreasePerGen": 0.05,
+    "obedienceMultiplierIncreasePerGen": 0.05,
+    "disobedienceMultiplierDecreasePerGen": 0.05
+  },
+  "PvpOn": true,
+  "PetDamageableByOwner": false,
+  "FalldamageOff": true,
+  "AllowTeleport": false,
+  "Resurrectors": [
+    "game:gear-temporal"
+  ]
+}

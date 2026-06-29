@@ -1,0 +1,125 @@
+{
+  "Version": 2,
+  "ItemTypes": {
+    "awearablelight:clothes-head-torch-*": {
+      "PowerType": "windup",
+      "UseFuel": false,
+      "RainExtinguish": false,
+      "InLiquid": false,
+      "OnCraftedFueled": false,
+      "Capacity": 300.0,
+      "FuelList": {}
+    },
+    "awearablelight:clothes-head-candle*": {
+      "PowerType": "fuel",
+      "UseFuel": true,
+      "RainExtinguish": true,
+      "InLiquid": true,
+      "OnCraftedFueled": true,
+      "Capacity": 24.0,
+      "FuelList": {
+        "game:candle": 8.0
+      }
+    },
+    "awearablelight:clothes-head-oil-lamp-*": {
+      "PowerType": "fuel",
+      "UseFuel": true,
+      "RainExtinguish": true,
+      "InLiquid": true,
+      "OnCraftedFueled": true,
+      "Capacity": 30.0,
+      "FuelList": {
+        "game:fat-rendered": 9.0,
+        "game:fat": 4.0
+      }
+    },
+    "awearablelight:clothes-waist-heavy-belt-brass-lantern-*": {
+      "PowerType": "fuel",
+      "UseFuel": true,
+      "RainExtinguish": false,
+      "InLiquid": true,
+      "OnCraftedFueled": true,
+      "Capacity": 64.0,
+      "FuelList": {
+        "game:candle": 8.0
+      }
+    },
+    "awearablelight:clothes-waist-heavy-belt-tinbronze-lantern-*": {
+      "PowerType": "fuel",
+      "UseFuel": true,
+      "RainExtinguish": false,
+      "InLiquid": true,
+      "OnCraftedFueled": true,
+      "Capacity": 64.0,
+      "FuelList": {
+        "game:candle": 8.0
+      }
+    },
+    "awearablelight:clothes-waist-heavy-belt-blackbronze-lantern-*": {
+      "PowerType": "fuel",
+      "UseFuel": true,
+      "RainExtinguish": false,
+      "InLiquid": true,
+      "OnCraftedFueled": true,
+      "Capacity": 64.0,
+      "FuelList": {
+        "game:candle": 8.0
+      }
+    },
+    "awearablelight:clothes-waist-heavy-belt-iron-lantern-*": {
+      "PowerType": "fuel",
+      "UseFuel": true,
+      "RainExtinguish": false,
+      "InLiquid": true,
+      "OnCraftedFueled": true,
+      "Capacity": 64.0,
+      "FuelList": {
+        "game:candle": 8.0
+      }
+    },
+    "awearablelight:clothes-waist-heavy-belt-copper-lantern-*": {
+      "PowerType": "fuel",
+      "UseFuel": true,
+      "RainExtinguish": false,
+      "InLiquid": true,
+      "OnCraftedFueled": true,
+      "Capacity": 64.0,
+      "FuelList": {
+        "game:candle": 8.0
+      }
+    },
+    "awearablelight:clothes-waist-heavy-belt-gold-lantern-*": {
+      "PowerType": "fuel",
+      "UseFuel": true,
+      "RainExtinguish": false,
+      "InLiquid": true,
+      "OnCraftedFueled": true,
+      "Capacity": 64.0,
+      "FuelList": {
+        "game:candle": 8.0
+      }
+    },
+    "awearablelight:clothes-waist-heavy-belt-bismuthbronze-lantern-*": {
+      "PowerType": "fuel",
+      "UseFuel": true,
+      "RainExtinguish": false,
+      "InLiquid": true,
+      "OnCraftedFueled": true,
+      "Capacity": 64.0,
+      "FuelList": {
+        "game:candle": 8.0
+      }
+    },
+    "awearablelight:clothes-waist-heavy-belt-silver-lantern-*": {
+      "PowerType": "fuel",
+      "UseFuel": true,
+      "RainExtinguish": false,
+      "InLiquid": true,
+      "OnCraftedFueled": true,
+      "Capacity": 64.0,
+      "FuelList": {
+        "game:candle": 8.0
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Tier1MinutesPerGear": 15,
+  "Tier1SecondsPerFuel": 6,
+  "Tier2browncoalfueltimeinseconds": 90,
+  "Tier2blackcoalfueltimeinseconds": 60,
+  "Tier2anthracitefueltimeinseconds": 30,
+  "Tier2charcoalfueltimeinseconds": 10,
+  "Tier2MinutesPerGear": 15,
+  "Tier2SpeedMultiplier2": 1,
+  "Tier1SpeedMultiplier2": 1
+}

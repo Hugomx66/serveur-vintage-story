@@ -1,0 +1,6 @@
+{
+  "place": true,
+  "placeLeaves": true,
+  "domino": true,
+  "fallDir": "forward"
+}

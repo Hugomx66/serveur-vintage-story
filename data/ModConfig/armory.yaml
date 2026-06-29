@@ -1,0 +1,11 @@
+version: 1
+melee_weapons_damage_multiplier: 1
+ # from 0.2 to 5 (default: 1) 
+javelins_range_damage_multiplier: 1
+ # from 0.2 to 5 (default: 1) 
+javelins_aiming_cursor_type: Fixed
+ # value from: None, Vanilla, Fixed, Moving (default: Fixed) 
+javelins_aiming_difficulty: 1
+ # from 0 to 2 (default: 1) 
+javelins_thrown_durability_consumption: 5
+ # from 1 to 20 (default: 5) 

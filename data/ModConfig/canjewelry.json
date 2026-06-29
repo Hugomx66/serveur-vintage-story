@@ -1,0 +1,6903 @@
+{
+  "grindTimeOneTick": 3.0,
+  "buffNameToPossibleItem": {
+    "diamond": [
+      "brigandine",
+      "plate",
+      "chain",
+      "scale",
+      "-antique",
+      "-tracker",
+      "greenwich-head",
+      "greenwich-body",
+      "greenwich-legs",
+      "viking-head",
+      "viking-body",
+      "viking-legs",
+      "templar-head",
+      "templar-body",
+      "templar-legs",
+      "landsknecht-head",
+      "landsknecht-body",
+      "landsknecht-legs",
+      "hussar-head",
+      "hussar-body",
+      "hussar-legs",
+      "gothic-head",
+      "gothic-body",
+      "gothic-legs",
+      "dynasties-head",
+      "dynasties-body",
+      "dynasties-legs",
+      "forlornzealot",
+      "forlornacolyte",
+      "shield",
+      "cansimplenecklace",
+      "cantiara",
+      "cancoronet",
+      "canhoruseye",
+      "canmonocle",
+      "canarmband",
+      "cannadiyannecklace",
+      "canring",
+      "canrottenkingmask",
+      "firearm-",
+      "exoskeleton-",
+      "walkingstick",
+      "axe-bardiche",
+      "axe-battle",
+      "axe-bearded",
+      "axe-double",
+      "club-flanged",
+      "club-morningstar",
+      "club-spiked",
+      "knife-baselard",
+      "knife-khanjar",
+      "knife-stiletto",
+      "sturdyleatherarmor",
+      "bonearmor",
+      "woodarmor",
+      "buckler",
+      "forlorn-shield",
+      "bow-ranger",
+      "bow-yager"
+    ],
+    "corundum": [
+      "pickaxe",
+      "shovel",
+      "tunneler",
+      "cansimplenecklace",
+      "cantiara",
+      "cancoronet",
+      "canhoruseye",
+      "canmonocle",
+      "canarmband",
+      "cannadiyannecklace",
+      "canring",
+      "canrottenkingmask",
+      "exoskeleton-"
+    ],
+    "emerald": [
+      "brigandine",
+      "plate",
+      "chain",
+      "scale",
+      "-antique",
+      "-tracker",
+      "greenwich-head",
+      "greenwich-body",
+      "greenwich-legs",
+      "viking-head",
+      "viking-body",
+      "viking-legs",
+      "templar-head",
+      "templar-body",
+      "templar-legs",
+      "landsknecht-head",
+      "landsknecht-body",
+      "landsknecht-legs",
+      "hussar-head",
+      "hussar-body",
+      "hussar-legs",
+      "gothic-head",
+      "gothic-body",
+      "gothic-legs",
+      "dynasties-head",
+      "dynasties-body",
+      "dynasties-legs",
+      "forlornzealot",
+      "forlornacolyte",
+      "shield",
+      "cansimplenecklace",
+      "cantiara",
+      "cancoronet",
+      "canhoruseye",
+      "canmonocle",
+      "canarmband",
+      "cannadiyannecklace",
+      "canring",
+      "canrottenkingmask",
+      "exoskeleton-",
+      "sturdyleatherarmor",
+      "bonearmor",
+      "woodarmor",
+      "buckler",
+      "forlorn-shield"
+    ],
+    "fluorite": [
+      "halberd",
+      "mace",
+      "spear",
+      "rapier",
+      "longsword",
+      "zweihander",
+      "messer",
+      "falx",
+      "ihammer",
+      "tshammer",
+      "biaxe",
+      "tssword",
+      "shammer",
+      "hamb",
+      "atgeir",
+      "blade",
+      "axe-long",
+      "sword-long",
+      "sword-great",
+      "sword-short",
+      "javelin-plain",
+      "pike-plain",
+      "club-plain",
+      "mace-plain",
+      "poleaxe-plain",
+      "halberd-plain",
+      "quarterstaff-plain",
+      "claymore",
+      "warhammer",
+      "dagger",
+      "cutlass",
+      "hasta",
+      "canopener",
+      "walkingstick",
+      "hidden-blade",
+      "cansimplenecklace",
+      "cantiara",
+      "cancoronet",
+      "canhoruseye",
+      "canmonocle",
+      "canarmband",
+      "cannadiyannecklace",
+      "canring",
+      "canrottenkingmask",
+      "exoskeleton-",
+      "axe-bardiche",
+      "axe-battle",
+      "axe-bearded",
+      "axe-double",
+      "club-flanged",
+      "club-morningstar",
+      "club-spiked",
+      "knife-baselard",
+      "knife-khanjar",
+      "knife-stiletto"
+    ],
+    "lapislazuli": [
+      "brigandine",
+      "plate",
+      "chain",
+      "scale",
+      "-antique",
+      "-tracker",
+      "greenwich-head",
+      "greenwich-body",
+      "greenwich-legs",
+      "viking-head",
+      "viking-body",
+      "viking-legs",
+      "templar-head",
+      "templar-body",
+      "templar-legs",
+      "landsknecht-head",
+      "landsknecht-body",
+      "landsknecht-legs",
+      "hussar-head",
+      "hussar-body",
+      "hussar-legs",
+      "gothic-head",
+      "gothic-body",
+      "gothic-legs",
+      "dynasties-head",
+      "dynasties-body",
+      "dynasties-legs",
+      "forlornzealot",
+      "forlornacolyte",
+      "shield",
+      "cansimplenecklace",
+      "cantiara",
+      "cancoronet",
+      "canhoruseye",
+      "canmonocle",
+      "canarmband",
+      "cannadiyannecklace",
+      "canring",
+      "canrottenkingmask",
+      "exoskeleton-",
+      "sturdyleatherarmor",
+      "bonearmor",
+      "woodarmor",
+      "buckler",
+      "forlorn-shield"
+    ],
+    "malachite": [
+      "brigandine",
+      "plate",
+      "chain",
+      "scale",
+      "-antique",
+      "-tracker",
+      "greenwich-head",
+      "greenwich-body",
+      "greenwich-legs",
+      "viking-head",
+      "viking-body",
+      "viking-legs",
+      "templar-head",
+      "templar-body",
+      "templar-legs",
+      "landsknecht-head",
+      "landsknecht-body",
+      "landsknecht-legs",
+      "hussar-head",
+      "hussar-body",
+      "hussar-legs",
+      "gothic-head",
+      "gothic-body",
+      "gothic-legs",
+      "dynasties-head",
+      "dynasties-body",
+      "dynasties-legs",
+      "forlornzealot",
+      "forlornacolyte",
+      "cansimplenecklace",
+      "cantiara",
+      "cancoronet",
+      "canhoruseye",
+      "canmonocle",
+      "canarmband",
+      "cannadiyannecklace",
+      "canring",
+      "canrottenkingmask",
+      "knife",
+      "scythe",
+      "exoskeleton-",
+      "hidden-blade",
+      "axe-bardiche",
+      "axe-battle",
+      "axe-bearded",
+      "axe-double",
+      "club-flanged",
+      "club-morningstar",
+      "club-spiked",
+      "knife-baselard",
+      "knife-khanjar",
+      "knife-stiletto",
+      "sturdyleatherarmor",
+      "bonearmor",
+      "woodarmor"
+    ],
+    "olivine": [
+      "brigandine",
+      "plate",
+      "chain",
+      "scale",
+      "-antique",
+      "-tracker",
+      "greenwich-head",
+      "greenwich-body",
+      "greenwich-legs",
+      "viking-head",
+      "viking-body",
+      "viking-legs",
+      "templar-head",
+      "templar-body",
+      "templar-legs",
+      "landsknecht-head",
+      "landsknecht-body",
+      "landsknecht-legs",
+      "hussar-head",
+      "hussar-body",
+      "hussar-legs",
+      "gothic-head",
+      "gothic-body",
+      "gothic-legs",
+      "dynasties-head",
+      "dynasties-body",
+      "dynasties-legs",
+      "forlornzealot",
+      "forlornacolyte",
+      "shield",
+      "cansimplenecklace",
+      "cantiara",
+      "cancoronet",
+      "canhoruseye",
+      "canmonocle",
+      "canarmband",
+      "cannadiyannecklace",
+      "canring",
+      "canrottenkingmask",
+      "exoskeleton-",
+      "sturdyleatherarmor",
+      "bonearmor",
+      "woodarmor",
+      "buckler",
+      "forlorn-shield"
+    ],
+    "uranium": [
+      "brigandine",
+      "plate",
+      "chain",
+      "scale",
+      "-antique",
+      "-tracker",
+      "greenwich-head",
+      "greenwich-body",
+      "greenwich-legs",
+      "viking-head",
+      "viking-body",
+      "viking-legs",
+      "templar-head",
+      "templar-body",
+      "templar-legs",
+      "landsknecht-head",
+      "landsknecht-body",
+      "landsknecht-legs",
+      "hussar-head",
+      "hussar-body",
+      "hussar-legs",
+      "gothic-head",
+      "gothic-body",
+      "gothic-legs",
+      "dynasties-head",
+      "dynasties-body",
+      "dynasties-legs",
+      "forlornzealot",
+      "forlornacolyte",
+      "shield",
+      "cansimplenecklace",
+      "cantiara",
+      "cancoronet",
+      "canhoruseye",
+      "canmonocle",
+      "canarmband",
+      "cannadiyannecklace",
+      "canring",
+      "canrottenkingmask",
+      "exoskeleton-",
+      "sturdyleatherarmor",
+      "bonearmor",
+      "woodarmor",
+      "buckler",
+      "forlorn-shield"
+    ],
+    "quartz": [
+      "pickaxe",
+      "shovel",
+      "tunneler",
+      "cansimplenecklace",
+      "cantiara",
+      "cancoronet",
+      "canhoruseye",
+      "canmonocle",
+      "canarmband",
+      "cannadiyannecklace",
+      "canring",
+      "canrottenkingmask",
+      "tspaxel",
+      "exoskeleton-"
+    ],
+    "ruby": [
+      "cansimplenecklace",
+      "cantiara",
+      "cancoronet",
+      "canhoruseye",
+      "canmonocle",
+      "canarmband",
+      "cannadiyannecklace",
+      "canring",
+      "canrottenkingmask",
+      "bow",
+      "tbow-compound",
+      "firearm-",
+      "walkingstick-sling",
+      "hidden-gun",
+      "exoskeleton-",
+      "bow-ranger",
+      "bow-yager"
+    ],
+    "citrine": [
+      "cansimplenecklace",
+      "cantiara",
+      "cancoronet",
+      "canhoruseye",
+      "canmonocle",
+      "canarmband",
+      "cannadiyannecklace",
+      "canring",
+      "canrottenkingmask",
+      "knife",
+      "exoskeleton-",
+      "hidden-blade",
+      "axe-bardiche",
+      "axe-battle",
+      "axe-bearded",
+      "axe-double",
+      "club-flanged",
+      "club-morningstar",
+      "club-spiked",
+      "knife-baselard",
+      "knife-khanjar",
+      "knife-stiletto"
+    ],
+    "berylaquamarine": [
+      "brigandine",
+      "plate",
+      "chain",
+      "scale",
+      "-antique",
+      "-tracker",
+      "greenwich-head",
+      "greenwich-body",
+      "greenwich-legs",
+      "viking-head",
+      "viking-body",
+      "viking-legs",
+      "templar-head",
+      "templar-body",
+      "templar-legs",
+      "landsknecht-head",
+      "landsknecht-body",
+      "landsknecht-legs",
+      "hussar-head",
+      "hussar-body",
+      "hussar-legs",
+      "gothic-head",
+      "gothic-body",
+      "gothic-legs",
+      "dynasties-head",
+      "dynasties-body",
+      "dynasties-legs",
+      "forlornzealot",
+      "forlornacolyte",
+      "shield",
+      "cansimplenecklace",
+      "cantiara",
+      "cancoronet",
+      "canhoruseye",
+      "canmonocle",
+      "canarmband",
+      "cannadiyannecklace",
+      "canring",
+      "canrottenkingmask",
+      "exoskeleton-",
+      "walkingstick",
+      "axe-bardiche",
+      "axe-battle",
+      "axe-bearded",
+      "axe-double",
+      "club-flanged",
+      "club-morningstar",
+      "club-spiked",
+      "knife-baselard",
+      "knife-khanjar",
+      "knife-stiletto",
+      "sturdyleatherarmor",
+      "bonearmor",
+      "woodarmor",
+      "buckler",
+      "forlorn-shield"
+    ],
+    "berylbixbite": [
+      "pickaxe",
+      "shovel",
+      "tunneler",
+      "cansimplenecklace",
+      "cantiara",
+      "cancoronet",
+      "canhoruseye",
+      "canmonocle",
+      "canarmband",
+      "cannadiyannecklace",
+      "canring",
+      "canrottenkingmask",
+      "exoskeleton-"
+    ],
+    "corundumruby": [
+      "cansimplenecklace",
+      "cantiara",
+      "cancoronet",
+      "canhoruseye",
+      "canmonocle",
+      "canarmband",
+      "cannadiyannecklace",
+      "canring",
+      "canrottenkingmask",
+      "bow",
+      "tbow-compound",
+      "walkingstick-sling",
+      "hidden-gun",
+      "exoskeleton-",
+      "bow-ranger",
+      "bow-yager"
+    ],
+    "corundumsapphire": [
+      "pickaxe",
+      "shovel",
+      "tunneler",
+      "cansimplenecklace",
+      "cantiara",
+      "cancoronet",
+      "canhoruseye",
+      "canmonocle",
+      "canarmband",
+      "cannadiyannecklace",
+      "canring",
+      "canrottenkingmask",
+      "exoskeleton-"
+    ],
+    "garnetalmandine": [
+      "cansimplenecklace",
+      "cantiara",
+      "cancoronet",
+      "canhoruseye",
+      "canmonocle",
+      "canarmband",
+      "cannadiyannecklace",
+      "canring",
+      "canrottenkingmask",
+      "bow",
+      "tspaxel",
+      "tbow-compound",
+      "walkingstick-sling",
+      "exoskeleton-",
+      "bow-ranger",
+      "bow-yager"
+    ],
+    "garnetandradite": [
+      "brigandine",
+      "plate",
+      "chain",
+      "scale",
+      "-antique",
+      "-tracker",
+      "greenwich-head",
+      "greenwich-body",
+      "greenwich-legs",
+      "viking-head",
+      "viking-body",
+      "viking-legs",
+      "templar-head",
+      "templar-body",
+      "templar-legs",
+      "landsknecht-head",
+      "landsknecht-body",
+      "landsknecht-legs",
+      "hussar-head",
+      "hussar-body",
+      "hussar-legs",
+      "gothic-head",
+      "gothic-body",
+      "gothic-legs",
+      "dynasties-head",
+      "dynasties-body",
+      "dynasties-legs",
+      "forlornzealot",
+      "forlornacolyte",
+      "shield",
+      "cansimplenecklace",
+      "cantiara",
+      "cancoronet",
+      "canhoruseye",
+      "canmonocle",
+      "canarmband",
+      "cannadiyannecklace",
+      "canring",
+      "canrottenkingmask",
+      "exoskeleton-",
+      "sturdyleatherarmor",
+      "bonearmor",
+      "woodarmor",
+      "buckler",
+      "forlorn-shield"
+    ],
+    "garnetgrossular": [
+      "halberd",
+      "mace",
+      "spear",
+      "rapier",
+      "longsword",
+      "zweihander",
+      "messer",
+      "falx",
+      "ihammer",
+      "tshammer",
+      "biaxe",
+      "tssword",
+      "shammer",
+      "hamb",
+      "atgeir",
+      "blade",
+      "axe-long",
+      "sword-long",
+      "sword-great",
+      "sword-short",
+      "javelin-plain",
+      "pike-plain",
+      "club-plain",
+      "mace-plain",
+      "poleaxe-plain",
+      "halberd-plain",
+      "quarterstaff-plain",
+      "claymore",
+      "warhammer",
+      "dagger",
+      "cutlass",
+      "hasta",
+      "canopener",
+      "walkingstick",
+      "hidden-blade",
+      "cansimplenecklace",
+      "cantiara",
+      "cancoronet",
+      "canhoruseye",
+      "canmonocle",
+      "canarmband",
+      "cannadiyannecklace",
+      "canring",
+      "canrottenkingmask",
+      "exoskeleton-",
+      "axe-bardiche",
+      "axe-battle",
+      "axe-bearded",
+      "axe-double",
+      "club-flanged",
+      "club-morningstar",
+      "club-spiked",
+      "knife-baselard",
+      "knife-khanjar",
+      "knife-stiletto"
+    ],
+    "garnetpyrope": [
+      "cansimplenecklace",
+      "cantiara",
+      "cancoronet",
+      "canhoruseye",
+      "canmonocle",
+      "canarmband",
+      "cannadiyannecklace",
+      "canring",
+      "canrottenkingmask",
+      "knife",
+      "exoskeleton-",
+      "hidden-blade",
+      "axe-bardiche",
+      "axe-battle",
+      "axe-bearded",
+      "axe-double",
+      "club-flanged",
+      "club-morningstar",
+      "club-spiked",
+      "knife-baselard",
+      "knife-khanjar",
+      "knife-stiletto"
+    ],
+    "garnetspessartine": [
+      "cansimplenecklace",
+      "cantiara",
+      "cancoronet",
+      "canhoruseye",
+      "canmonocle",
+      "canarmband",
+      "cannadiyannecklace",
+      "canring",
+      "canrottenkingmask",
+      "knife",
+      "exoskeleton-",
+      "hidden-blade",
+      "axe-bardiche",
+      "axe-battle",
+      "axe-bearded",
+      "axe-double",
+      "club-flanged",
+      "club-morningstar",
+      "club-spiked",
+      "knife-baselard",
+      "knife-khanjar",
+      "knife-stiletto"
+    ],
+    "garnetuvarovite": [
+      "cansimplenecklace",
+      "cantiara",
+      "cancoronet",
+      "canhoruseye",
+      "canmonocle",
+      "canarmband",
+      "cannadiyannecklace",
+      "canring",
+      "canrottenkingmask",
+      "bow",
+      "walkingstick-sling",
+      "exoskeleton-",
+      "bow-ranger",
+      "bow-yager"
+    ],
+    "spinelred": [
+      "brigandine",
+      "plate",
+      "chain",
+      "scale",
+      "-antique",
+      "-tracker",
+      "greenwich-head",
+      "greenwich-body",
+      "greenwich-legs",
+      "viking-head",
+      "viking-body",
+      "viking-legs",
+      "templar-head",
+      "templar-body",
+      "templar-legs",
+      "landsknecht-head",
+      "landsknecht-body",
+      "landsknecht-legs",
+      "hussar-head",
+      "hussar-body",
+      "hussar-legs",
+      "gothic-head",
+      "gothic-body",
+      "gothic-legs",
+      "dynasties-head",
+      "dynasties-body",
+      "dynasties-legs",
+      "forlornzealot",
+      "forlornacolyte",
+      "shield",
+      "cansimplenecklace",
+      "cantiara",
+      "cancoronet",
+      "canhoruseye",
+      "canmonocle",
+      "canarmband",
+      "cannadiyannecklace",
+      "canring",
+      "canrottenkingmask",
+      "exoskeleton-",
+      "sturdyleatherarmor",
+      "bonearmor",
+      "woodarmor",
+      "buckler",
+      "forlorn-shield"
+    ],
+    "topazamber": [
+      "brigandine",
+      "plate",
+      "chain",
+      "scale",
+      "-antique",
+      "-tracker",
+      "greenwich-head",
+      "greenwich-body",
+      "greenwich-legs",
+      "viking-head",
+      "viking-body",
+      "viking-legs",
+      "templar-head",
+      "templar-body",
+      "templar-legs",
+      "landsknecht-head",
+      "landsknecht-body",
+      "landsknecht-legs",
+      "hussar-head",
+      "hussar-body",
+      "hussar-legs",
+      "gothic-head",
+      "gothic-body",
+      "gothic-legs",
+      "dynasties-head",
+      "dynasties-body",
+      "dynasties-legs",
+      "forlornzealot",
+      "forlornacolyte",
+      "cansimplenecklace",
+      "cantiara",
+      "cancoronet",
+      "canhoruseye",
+      "canmonocle",
+      "canarmband",
+      "cannadiyannecklace",
+      "canring",
+      "canrottenkingmask",
+      "knife",
+      "exoskeleton-",
+      "cutlass",
+      "hasta",
+      "canopener",
+      "walkingstick",
+      "hidden-blade",
+      "axe-bardiche",
+      "axe-battle",
+      "axe-bearded",
+      "axe-double",
+      "club-flanged",
+      "club-morningstar",
+      "club-spiked",
+      "knife-baselard",
+      "knife-khanjar",
+      "knife-stiletto",
+      "sturdyleatherarmor",
+      "bonearmor",
+      "woodarmor"
+    ],
+    "topazblue": [
+      "brigandine",
+      "plate",
+      "chain",
+      "scale",
+      "-antique",
+      "-tracker",
+      "greenwich-head",
+      "greenwich-body",
+      "greenwich-legs",
+      "viking-head",
+      "viking-body",
+      "viking-legs",
+      "templar-head",
+      "templar-body",
+      "templar-legs",
+      "landsknecht-head",
+      "landsknecht-body",
+      "landsknecht-legs",
+      "hussar-head",
+      "hussar-body",
+      "hussar-legs",
+      "gothic-head",
+      "gothic-body",
+      "gothic-legs",
+      "dynasties-head",
+      "dynasties-body",
+      "dynasties-legs",
+      "forlornzealot",
+      "forlornacolyte",
+      "cansimplenecklace",
+      "cantiara",
+      "cancoronet",
+      "canhoruseye",
+      "canmonocle",
+      "canarmband",
+      "cannadiyannecklace",
+      "canring",
+      "canrottenkingmask",
+      "exoskeleton-",
+      "sturdyleatherarmor",
+      "bonearmor",
+      "woodarmor"
+    ],
+    "topazpink": [
+      "cansimplenecklace",
+      "cantiara",
+      "cancoronet",
+      "canhoruseye",
+      "canmonocle",
+      "canarmband",
+      "cannadiyannecklace",
+      "canring",
+      "canrottenkingmask",
+      "knife",
+      "exoskeleton-",
+      "hidden-blade",
+      "axe-bardiche",
+      "axe-battle",
+      "axe-bearded",
+      "axe-double",
+      "club-flanged",
+      "club-morningstar",
+      "club-spiked",
+      "knife-baselard",
+      "knife-khanjar",
+      "knife-stiletto"
+    ],
+    "tourmalinerubellite": [
+      "brigandine",
+      "plate",
+      "chain",
+      "scale",
+      "-antique",
+      "-tracker",
+      "greenwich-head",
+      "greenwich-body",
+      "greenwich-legs",
+      "viking-head",
+      "viking-body",
+      "viking-legs",
+      "templar-head",
+      "templar-body",
+      "templar-legs",
+      "landsknecht-head",
+      "landsknecht-body",
+      "landsknecht-legs",
+      "hussar-head",
+      "hussar-body",
+      "hussar-legs",
+      "gothic-head",
+      "gothic-body",
+      "gothic-legs",
+      "dynasties-head",
+      "dynasties-body",
+      "dynasties-legs",
+      "forlornzealot",
+      "forlornacolyte",
+      "cansimplenecklace",
+      "cantiara",
+      "cancoronet",
+      "canhoruseye",
+      "canmonocle",
+      "canarmband",
+      "cannadiyannecklace",
+      "canring",
+      "canrottenkingmask",
+      "exoskeleton-",
+      "sturdyleatherarmor",
+      "bonearmor",
+      "woodarmor"
+    ],
+    "tourmalineschorl": [
+      "halberd",
+      "mace",
+      "spear",
+      "rapier",
+      "longsword",
+      "zweihander",
+      "messer",
+      "falx",
+      "ihammer",
+      "tshammer",
+      "biaxe",
+      "tssword",
+      "shammer",
+      "hamb",
+      "atgeir",
+      "blade",
+      "axe-long",
+      "sword-long",
+      "sword-great",
+      "sword-short",
+      "javelin-plain",
+      "pike-plain",
+      "club-plain",
+      "mace-plain",
+      "poleaxe-plain",
+      "halberd-plain",
+      "quarterstaff-plain",
+      "claymore",
+      "warhammer",
+      "dagger",
+      "cutlass",
+      "hasta",
+      "canopener",
+      "walkingstick",
+      "hidden-blade",
+      "cansimplenecklace",
+      "cantiara",
+      "cancoronet",
+      "canhoruseye",
+      "canmonocle",
+      "canarmband",
+      "cannadiyannecklace",
+      "canring",
+      "canrottenkingmask",
+      "exoskeleton-",
+      "axe-bardiche",
+      "axe-battle",
+      "axe-bearded",
+      "axe-double",
+      "club-flanged",
+      "club-morningstar",
+      "club-spiked",
+      "knife-baselard",
+      "knife-khanjar",
+      "knife-stiletto"
+    ],
+    "tourmalineverdelite": [
+      "brigandine",
+      "plate",
+      "chain",
+      "scale",
+      "-antique",
+      "-tracker",
+      "greenwich-head",
+      "greenwich-body",
+      "greenwich-legs",
+      "viking-head",
+      "viking-body",
+      "viking-legs",
+      "templar-head",
+      "templar-body",
+      "templar-legs",
+      "landsknecht-head",
+      "landsknecht-body",
+      "landsknecht-legs",
+      "hussar-head",
+      "hussar-body",
+      "hussar-legs",
+      "gothic-head",
+      "gothic-body",
+      "gothic-legs",
+      "dynasties-head",
+      "dynasties-body",
+      "dynasties-legs",
+      "forlornzealot",
+      "forlornacolyte",
+      "shield",
+      "cansimplenecklace",
+      "cantiara",
+      "cancoronet",
+      "canhoruseye",
+      "canmonocle",
+      "canarmband",
+      "cannadiyannecklace",
+      "canring",
+      "canrottenkingmask",
+      "exoskeleton-",
+      "sturdyleatherarmor",
+      "bonearmor",
+      "woodarmor",
+      "buckler",
+      "forlorn-shield"
+    ],
+    "tourmalinewatermelon": [
+      "cansimplenecklace",
+      "cantiara",
+      "cancoronet",
+      "canhoruseye",
+      "canmonocle",
+      "canarmband",
+      "cannadiyannecklace",
+      "canring",
+      "canrottenkingmask",
+      "bow",
+      "tbow-compound",
+      "walkingstick-sling",
+      "hidden-gun",
+      "exoskeleton-",
+      "bow-ranger",
+      "bow-yager"
+    ],
+    "amethyst": [
+      "halberd",
+      "mace",
+      "spear",
+      "rapier",
+      "longsword",
+      "zweihander",
+      "messer",
+      "falx",
+      "ihammer",
+      "tshammer",
+      "biaxe",
+      "tssword",
+      "shammer",
+      "hamb",
+      "atgeir",
+      "blade",
+      "axe-long",
+      "sword-long",
+      "sword-great",
+      "sword-short",
+      "javelin-plain",
+      "pike-plain",
+      "club-plain",
+      "mace-plain",
+      "poleaxe-plain",
+      "halberd-plain",
+      "quarterstaff-plain",
+      "claymore",
+      "warhammer",
+      "dagger",
+      "cutlass",
+      "hasta",
+      "canopener",
+      "walkingstick",
+      "hidden-blade",
+      "brigandine",
+      "plate",
+      "chain",
+      "scale",
+      "-antique",
+      "-tracker",
+      "greenwich-head",
+      "greenwich-body",
+      "greenwich-legs",
+      "viking-head",
+      "viking-body",
+      "viking-legs",
+      "templar-head",
+      "templar-body",
+      "templar-legs",
+      "landsknecht-head",
+      "landsknecht-body",
+      "landsknecht-legs",
+      "hussar-head",
+      "hussar-body",
+      "hussar-legs",
+      "gothic-head",
+      "gothic-body",
+      "gothic-legs",
+      "dynasties-head",
+      "dynasties-body",
+      "dynasties-legs",
+      "forlornzealot",
+      "forlornacolyte",
+      "cansimplenecklace",
+      "cantiara",
+      "cancoronet",
+      "canhoruseye",
+      "canmonocle",
+      "canarmband",
+      "cannadiyannecklace",
+      "canring",
+      "canrottenkingmask",
+      "shield",
+      "bow",
+      "knife",
+      "axe-felling-",
+      "prospectingpick-",
+      "hammer-",
+      "shovel-",
+      "hoe-",
+      "saw-",
+      "chisel-",
+      "scythe-",
+      "pickaxe-",
+      "tunneler",
+      "firearm-",
+      "exoskeleton-",
+      "walkingstick-sling",
+      "hidden-gun",
+      "axe-bardiche",
+      "axe-battle",
+      "axe-bearded",
+      "axe-double",
+      "club-flanged",
+      "club-morningstar",
+      "club-spiked",
+      "knife-baselard",
+      "knife-khanjar",
+      "knife-stiletto",
+      "sturdyleatherarmor",
+      "bonearmor",
+      "woodarmor",
+      "buckler",
+      "forlorn-shield",
+      "bow-ranger",
+      "bow-yager"
+    ],
+    "topaz": [
+      "pickaxe",
+      "shovel"
+    ],
+    "pearl": [
+      "pickaxe",
+      "shovel"
+    ]
+  },
+  "gems_buffs": {
+    "walkspeed": {
+      "1": 0.02,
+      "2": 0.04,
+      "3": 0.08
+    },
+    "miningSpeedMul": {
+      "1": 0.03,
+      "2": 0.06,
+      "3": 0.09
+    },
+    "maxhealthExtraPoints": {
+      "1": 1.0,
+      "2": 2.0,
+      "3": 4.0
+    },
+    "meleeWeaponsDamage": {
+      "1": 0.03,
+      "2": 0.05,
+      "3": 0.08
+    },
+    "hungerrate": {
+      "1": -0.03,
+      "2": -0.06,
+      "3": -0.1
+    },
+    "wildCropDropRate": {
+      "1": 0.02,
+      "2": 0.05,
+      "3": 0.09
+    },
+    "armorDurabilityLoss": {
+      "1": -0.05,
+      "2": -0.1,
+      "3": -0.15
+    },
+    "oreDropRate": {
+      "1": 0.05,
+      "2": 0.08,
+      "3": 0.11
+    },
+    "healingeffectivness": {
+      "1": 0.05,
+      "2": 0.1,
+      "3": 0.12
+    },
+    "rangedWeaponsDamage": {
+      "1": 0.02,
+      "2": 0.04,
+      "3": 0.09
+    },
+    "animalLootDropRate": {
+      "1": 0.02,
+      "2": 0.04,
+      "3": 0.09
+    },
+    "vesselContentsDropRate": {
+      "1": 0.02,
+      "2": 0.04,
+      "3": 0.09
+    },
+    "animalSeekingRange": {
+      "1": -0.03,
+      "2": -0.05,
+      "3": -0.1
+    },
+    "rangedWeaponsSpeed": {
+      "1": 0.02,
+      "2": 0.05,
+      "3": 0.08
+    },
+    "animalHarvestingTime": {
+      "1": -0.02,
+      "2": -0.05,
+      "3": -0.08
+    },
+    "mechanicalsDamage": {
+      "1": 0.02,
+      "2": 0.04,
+      "3": 0.08
+    },
+    "rangedWeaponsAcc": {
+      "1": 0.02,
+      "2": 0.04,
+      "3": 0.07
+    },
+    "armorWalkSpeedAffectedness": {
+      "1": -0.02,
+      "2": -0.04,
+      "3": -0.07
+    },
+    "bowDrawingStrength": {
+      "1": 0.01,
+      "2": 0.03,
+      "3": 0.06
+    },
+    "candurability": {
+      "1": 0.2,
+      "2": 0.45,
+      "3": 0.95
+    },
+    "temporalgrasp": {
+      "1": 0.2,
+      "2": 0.45,
+      "3": 0.95
+    }
+  },
+  "items_codes_with_socket_count": {
+    "moved to items_codes_with_socket_count_and_tiers": 42
+  },
+  "items_codes_with_socket_count_and_tiers": {
+    "canjewelry:canring-*": [
+      1
+    ],
+    "canjewelry:cancoronet-*": [
+      3
+    ],
+    "canjewelry:canarmband-*": [
+      2
+    ],
+    "*knife-generic-gold": [
+      3
+    ],
+    "*knife-generic-silver": [
+      3
+    ],
+    "*knife-generic-iron": [
+      3
+    ],
+    "*knife-generic-meteoriciron": [
+      3,
+      3
+    ],
+    "*knife-generic-steel": [
+      3,
+      3,
+      3
+    ],
+    "*pickaxe-blackbronze": [
+      3
+    ],
+    "*pickaxe-tinbronze": [
+      3
+    ],
+    "*pickaxe-bismuthbronze": [
+      3
+    ],
+    "*pickaxe-gold": [
+      3
+    ],
+    "*pickaxe-silver": [
+      3
+    ],
+    "*pickaxe-iron": [
+      3,
+      3
+    ],
+    "*pickaxe-meteoriciron": [
+      3,
+      3
+    ],
+    "*pickaxe-steel": [
+      3,
+      3,
+      3
+    ],
+    "*scythe-blackbronze": [
+      3
+    ],
+    "*scythe-tinbronze": [
+      3
+    ],
+    "*scythe-bismuthbronze": [
+      3
+    ],
+    "*scythe-gold": [
+      3
+    ],
+    "*scythe-iron": [
+      3,
+      3
+    ],
+    "*scythe-meteoriciron": [
+      3,
+      3
+    ],
+    "*scythe-steel": [
+      3,
+      3,
+      3
+    ],
+    "*shovel-blackbronze": [
+      3
+    ],
+    "*shovel-tinbronze": [
+      3
+    ],
+    "*shovel-bismuthbronze": [
+      3
+    ],
+    "*shovel-gold": [
+      3
+    ],
+    "*shovel-iron": [
+      3,
+      3
+    ],
+    "*shovel-meteoriciron": [
+      3,
+      3
+    ],
+    "*shovel-steel": [
+      3,
+      3,
+      3
+    ],
+    "armor-head-brigandine-*": [
+      3
+    ],
+    "armor-legs-brigandine-*": [
+      3
+    ],
+    "armor-body-brigandine-*": [
+      3,
+      3
+    ],
+    "armor-head-plate-*": [
+      3
+    ],
+    "armor-legs-plate-*": [
+      3
+    ],
+    "armor-body-plate-*": [
+      3,
+      3
+    ],
+    "armor-head-scale-*": [
+      3
+    ],
+    "armor-legs-scale-*": [
+      3
+    ],
+    "armor-body-scale-*": [
+      3,
+      3
+    ],
+    "armor-head-chain-*": [
+      3
+    ],
+    "armor-legs-chain-*": [
+      3
+    ],
+    "armor-body-chain-*": [
+      3,
+      3
+    ],
+    "armor-head-antique-*": [
+      3
+    ],
+    "armor-legs-antique-*": [
+      3
+    ],
+    "armor-body-antique-*": [
+      3,
+      3
+    ],
+    "xmelee:xzweihander-meteoriciron": [
+      3
+    ],
+    "xmelee:xzweihander-steel": [
+      3,
+      3
+    ],
+    "xmelee:xlongsword-meteoriciron": [
+      3
+    ],
+    "xmelee:xlongsword-steel": [
+      3,
+      3
+    ],
+    "xmelee:xhalberd-meteoriciron": [
+      3
+    ],
+    "xmelee:xhalberd-steel": [
+      3,
+      3
+    ],
+    "xmelee:xmesser-meteoriciron": [
+      3
+    ],
+    "xmelee:xmesser-steel": [
+      3,
+      3
+    ],
+    "xmelee:xmace-meteoriciron": [
+      3
+    ],
+    "xmelee:xmace-steel": [
+      3,
+      3
+    ],
+    "xmelee:xpike-meteoriciron": [
+      3
+    ],
+    "xmelee:xpike-steel": [
+      3,
+      3
+    ],
+    "xmelee:xrapier-meteoriciron": [
+      3
+    ],
+    "xmelee:xrapier-steel": [
+      3,
+      3
+    ],
+    "xmelee:xspear-meteoriciron": [
+      3
+    ],
+    "xmelee:xspear-steel": [
+      3,
+      3
+    ],
+    "*blade-falx-gold": [
+      3
+    ],
+    "*blade-falx-silver": [
+      3
+    ],
+    "*blade-falx-iron": [
+      3
+    ],
+    "*blade-falx-meteoriciron": [
+      3,
+      3
+    ],
+    "*blade-falx-steel": [
+      3,
+      3
+    ],
+    "*blade-blackguard-iron": [
+      3,
+      3
+    ],
+    "*blade-forlorn-iron": [
+      3,
+      3
+    ],
+    "*blade-longsword-admin": [
+      3,
+      3,
+      3
+    ],
+    "bow-simple": [
+      3
+    ],
+    "bow-recurve": [
+      3,
+      3
+    ],
+    "bow-long": [
+      3,
+      3
+    ],
+    "tstools:ihammer": [
+      3
+    ],
+    "tstools:tshammer": [
+      3,
+      3
+    ],
+    "tstools:tspaxel": [
+      3,
+      3
+    ],
+    "tstools:tspickaxe": [
+      3,
+      3
+    ],
+    "tstools:biaxe": [
+      3,
+      3
+    ],
+    "tstools:tssword": [
+      3,
+      3
+    ],
+    "tstools:shammer": [
+      3,
+      3
+    ],
+    "tstools:hamb": [
+      3,
+      3
+    ],
+    "tstools:tbow-compound": [
+      3,
+      3
+    ],
+    "swordz:zweihander-iron-*": [
+      3,
+      3
+    ],
+    "swordz:zweihander-meteoriciron-*": [
+      3,
+      3
+    ],
+    "swordz:zweihander-steel-*": [
+      3,
+      3,
+      3
+    ],
+    "swordz:atgeir-iron": [
+      3,
+      3
+    ],
+    "swordz:atgeir-meteoriciron": [
+      3,
+      3
+    ],
+    "swordz:atgeir-steel": [
+      3,
+      3,
+      3
+    ],
+    "swordz:armor-head-*": [
+      3
+    ],
+    "swordz:armor-legs-*": [
+      3
+    ],
+    "swordz:armor-body-*": [
+      3,
+      3
+    ],
+    "swordz:tunneler-steel-*": [
+      3,
+      3
+    ],
+    "swordz:tunneler-stainlesssteel-*": [
+      3,
+      3
+    ],
+    "swordz:tunneler-titanium-*": [
+      3,
+      3,
+      3
+    ],
+    "swordz:tunneler-mithril-*": [
+      3,
+      3,
+      3
+    ],
+    "swordz:tunneler-adamant-*": [
+      3,
+      3,
+      3
+    ],
+    "swordz:tunneler-orichalcum-*": [
+      3,
+      3,
+      3
+    ],
+    "swordz:tunneler-aithril-*": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "swordz:pernach-iron-*": [
+      3,
+      3
+    ],
+    "swordz:pernach-meteoriciron-*": [
+      3,
+      3
+    ],
+    "swordz:pernach-steel-*": [
+      3,
+      3,
+      3
+    ],
+    "swordz:warhammer-iron": [
+      3,
+      3
+    ],
+    "swordz:warhammer-meteoriciron": [
+      3,
+      3
+    ],
+    "swordz:warhammer-steel": [
+      3,
+      3,
+      3
+    ],
+    "swordz:stiletto-iron": [
+      3,
+      3
+    ],
+    "swordz:stiletto-meteoriciron": [
+      3,
+      3
+    ],
+    "swordz:stiletto-steel": [
+      3,
+      3,
+      3
+    ],
+    "swordz:knife-generic-stainelesssteel": [
+      3
+    ],
+    "swordz:knife-generic-titanium": [
+      3,
+      3
+    ],
+    "swordz:knife-generic-mithril": [
+      3,
+      3
+    ],
+    "swordz:knife-generic-adamant": [
+      3,
+      3
+    ],
+    "swordz:knife-generic-orichalcum": [
+      3,
+      3
+    ],
+    "swordz:knife-generic-aithril": [
+      3,
+      3,
+      3
+    ],
+    "swordz:sord-iron-*": [
+      3,
+      3
+    ],
+    "swordz:sord-meteoriciron-*": [
+      3,
+      3
+    ],
+    "swordz:sord-steel-*": [
+      3,
+      3,
+      3
+    ],
+    "swordz:gladius-iron-*": [
+      3,
+      3
+    ],
+    "swordz:kilij-iron-*": [
+      3,
+      3
+    ],
+    "swordz:kilij-meteoriciron-*": [
+      3,
+      3
+    ],
+    "swordz:kilij-steel-*": [
+      3,
+      3,
+      3
+    ],
+    "swordz:longsword-iron-*": [
+      3,
+      3
+    ],
+    "swordz:longsword-meteoriciron-*": [
+      3,
+      3
+    ],
+    "swordz:longsword-steel-*": [
+      3,
+      3,
+      3
+    ],
+    "diamondpick-steel": [
+      3,
+      3,
+      3
+    ],
+    "armory:axe-long-plain-tinbronze": [
+      2
+    ],
+    "armory:axe-long-plain-bismuthbronze": [
+      2
+    ],
+    "armory:axe-long-plain-blackbronze": [
+      2
+    ],
+    "armory:axe-long-plain-iron": [
+      3
+    ],
+    "armory:axe-long-plain-meteoriciron": [
+      3,
+      3
+    ],
+    "armory:axe-long-plain-steel": [
+      3,
+      3,
+      3
+    ],
+    "armory:sword-great-plain-iron": [
+      3
+    ],
+    "armory:sword-great-plain-meteoriciron": [
+      3,
+      3
+    ],
+    "armory:sword-great-plain-steel": [
+      3,
+      3,
+      3
+    ],
+    "armory:sword-long-plain-tinbronze": [
+      2
+    ],
+    "armory:sword-long-plain-bismuthbronze": [
+      2
+    ],
+    "armory:sword-long-plain-blackbronze": [
+      2
+    ],
+    "armory:sword-long-plain-iron": [
+      3
+    ],
+    "armory:sword-long-plain-meteoriciron": [
+      3,
+      3
+    ],
+    "armory:sword-long-plain-steel": [
+      3,
+      3,
+      3
+    ],
+    "armory:sword-short-plain-tinbronze": [
+      2
+    ],
+    "armory:sword-short-plain-bismuthbronze": [
+      2
+    ],
+    "armory:sword-short-plain-blackbronze": [
+      2
+    ],
+    "armory:sword-short-plain-iron": [
+      3
+    ],
+    "armory:sword-short-plain-meteoriciron": [
+      3,
+      3
+    ],
+    "armory:sword-short-plain-steel": [
+      3,
+      3,
+      3
+    ],
+    "armory:javelin-plain-tinbronze": [
+      2
+    ],
+    "armory:javelin-plain-bismuthbronze": [
+      2
+    ],
+    "armory:javelin-plain-blackbronze": [
+      2
+    ],
+    "armory:javelin-plain-iron": [
+      3
+    ],
+    "armory:javelin-plain-meteoriciron": [
+      3,
+      3
+    ],
+    "armory:javelin-plain-steel": [
+      3,
+      3,
+      3
+    ],
+    "armory:pike-plain-tinbronze": [
+      2
+    ],
+    "armory:pike-plain-bismuthbronze": [
+      2
+    ],
+    "armory:pike-plain-blackbronze": [
+      2
+    ],
+    "armory:pike-plain-iron": [
+      3
+    ],
+    "armory:pike-plain-meteoriciron": [
+      3,
+      3
+    ],
+    "armory:pike-plain-steel": [
+      3,
+      3,
+      3
+    ],
+    "armory:club-plain-tinbronze": [
+      2
+    ],
+    "armory:club-plain-bismuthbronze": [
+      2
+    ],
+    "armory:club-plain-blackbronze": [
+      2
+    ],
+    "armory:club-plain-iron": [
+      3
+    ],
+    "armory:club-plain-meteoriciron": [
+      3,
+      3
+    ],
+    "armory:club-plain-steel": [
+      3,
+      3,
+      3
+    ],
+    "armory:mace-plain-tinbronze": [
+      2
+    ],
+    "armory:mace-plain-bismuthbronze": [
+      2
+    ],
+    "armory:mace-plain-blackbronze": [
+      2
+    ],
+    "armory:mace-plain-iron": [
+      3
+    ],
+    "armory:mace-plain-meteoriciron": [
+      3,
+      3
+    ],
+    "armory:mace-plain-steel": [
+      3,
+      3,
+      3
+    ],
+    "armory:poleaxe-plain-steel": [
+      3,
+      3
+    ],
+    "armory:halberd-plain-iron": [
+      3
+    ],
+    "armory:halberd-plain-meteoriciron": [
+      3,
+      3
+    ],
+    "armory:halberd-plain-steel": [
+      3,
+      3,
+      3
+    ],
+    "armory:quarterstaff-plain-tinbronze": [
+      2
+    ],
+    "armory:quarterstaff-plain-bismuthbronze": [
+      2
+    ],
+    "armory:quarterstaff-plain-blackbronze": [
+      2
+    ],
+    "armory:quarterstaff-plain-iron": [
+      3
+    ],
+    "armory:quarterstaff-plain-meteoriciron": [
+      3,
+      3
+    ],
+    "armory:quarterstaff-plain-steel": [
+      3,
+      3,
+      3
+    ],
+    "armory:armor-torso-brigandine-*": [
+      3
+    ],
+    "armory:armor-legs-brigandine-*": [
+      3
+    ],
+    "armory:armor-head-*-light": [
+      3
+    ],
+    "armory:armor-torso-plate-*": [
+      3
+    ],
+    "armory:armor-legs-plate-*": [
+      3
+    ],
+    "armory:armor-body-plate-*": [
+      3
+    ],
+    "armory:armor-head-chain-*": [
+      3
+    ],
+    "armory:armor-torso-chain-*": [
+      3
+    ],
+    "blackguardadditions:armor-head-antique-*": [
+      3
+    ],
+    "blackguardadditions:armor-legs-antique-*": [
+      3
+    ],
+    "blackguardadditions:armor-body-antique-*": [
+      3,
+      3
+    ],
+    "blackguardadditions:claymore": [
+      3,
+      3,
+      3
+    ],
+    "blackguardadditions:dagger": [
+      3
+    ],
+    "blackguardadditions:warhammer": [
+      3,
+      3,
+      3
+    ],
+    "blackguardadditions:blackguardbow-*": [
+      3,
+      3
+    ],
+    "blackguardadditions:armor-head-tracker-*": [
+      3
+    ],
+    "blackguardadditions:armor-legs-tracker-*": [
+      3
+    ],
+    "blackguardadditions:armor-body-tracker-*": [
+      3,
+      3
+    ],
+    "fagreenwich:fa-greenwich-head-*": [
+      3
+    ],
+    "fagreenwich:fa-greenwich-body-*": [
+      3,
+      3
+    ],
+    "fagreenwich:fa-greenwich-legs-*": [
+      3
+    ],
+    "faviking:fa-viking-head-*": [
+      3
+    ],
+    "faviking:fa-viking-body-*": [
+      3,
+      3
+    ],
+    "faviking:fa-viking-legs-*": [
+      3
+    ],
+    "fatemplar:fa-templar-head-*": [
+      3
+    ],
+    "fatemplar:fa-templar-body-*": [
+      3,
+      3
+    ],
+    "fatemplar:fa-templar-legs-*": [
+      3
+    ],
+    "falandsknecht:fa-landsknecht-head-*": [
+      3
+    ],
+    "falandsknecht:fa-landsknecht-body-*": [
+      3,
+      3
+    ],
+    "falandsknecht:fa-landsknecht-legs-*": [
+      3
+    ],
+    "fagothic:fa-gothic-head-*": [
+      3
+    ],
+    "fagothic:fa-gothic-body-*": [
+      3,
+      3
+    ],
+    "fagothic:fa-gothic-legs-*": [
+      3
+    ],
+    "fahussar:fa-hussar-head-*": [
+      3
+    ],
+    "fahussar:fa-hussar-body-*": [
+      3,
+      3
+    ],
+    "fahussar:fa-hussar-legs-*": [
+      3
+    ],
+    "fadynasties:fa-dynasties-head-*": [
+      3
+    ],
+    "fadynasties:fa-dynasties-body-*": [
+      3,
+      3
+    ],
+    "fadynasties:fa-dynasties-legs-*": [
+      3
+    ],
+    "canjewelry:cannadiyannecklace-*": [
+      1
+    ],
+    "maltiezfirearms:firearm-arquebus-iron": [
+      1
+    ],
+    "maltiezfirearms:firearm-arquebus-metoriciron": [
+      2
+    ],
+    "maltiezfirearms:firearm-arquebus-rusted": [
+      2
+    ],
+    "maltiezfirearms:firearm-arquebus-steel": [
+      3
+    ],
+    "maltiezfirearms:firearm-blunderbuss-iron": [
+      1
+    ],
+    "maltiezfirearms:firearm-blunderbuss-metoriciron": [
+      2
+    ],
+    "maltiezfirearms:firearm-blunderbuss-rusted": [
+      2
+    ],
+    "maltiezfirearms:firearm-blunderbuss-steel": [
+      3
+    ],
+    "maltiezfirearms:firearm-carbine-iron": [
+      1
+    ],
+    "maltiezfirearms:firearm-carbine-metoriciron": [
+      2
+    ],
+    "maltiezfirearms:firearm-carbine-rusted": [
+      2
+    ],
+    "maltiezfirearms:firearm-carbine-steel": [
+      3
+    ],
+    "maltiezfirearms:firearm-jezail-steel": [
+      3
+    ],
+    "maltiezfirearms:firearm-musket-steel": [
+      3
+    ],
+    "maltiezfirearms:firearm-pistol-steel": [
+      3
+    ],
+    "exoskeletons:exoskeleton-legs-armored-*": [
+      3
+    ],
+    "exoskeletons:exoskeleton-arms-armored-*": [
+      3
+    ],
+    "exoskeletons:exoskeleton-legs-unarmored-*": [
+      3,
+      1
+    ],
+    "exoskeletons:exoskeleton-arms-unarmored-*": [
+      3,
+      1
+    ],
+    "exoskeletons:exoskeleton-torso-armored-*": [
+      3
+    ],
+    "exoskeletons:exoskeleton-torso-unarmored-*": [
+      3,
+      1
+    ],
+    "extrafirearms:firearm-arquebusflintlock-steel-*": [
+      3
+    ],
+    "extrafirearms:firearm-blunderbusdb-steel-*": [
+      3
+    ],
+    "extrafirearms:firearm-hallrifle-steel-*": [
+      3
+    ],
+    "extrafirearms:firearm-jezail-steel-*": [
+      3
+    ],
+    "extrafirearms:firearm-pistolaxe-steel-*": [
+      3
+    ],
+    "extrafirearms:firearm-pistol-iron-*": [
+      1
+    ],
+    "extrafirearms:firearm-pistol-meteoriciron-*": [
+      1
+    ],
+    "extrafirearms:firearm-pistolrevolver-steel-*": [
+      3
+    ],
+    "extrafirearms:firearm-pistol-steel-*": [
+      3
+    ],
+    "extrafirearms:firearm-superimposed-steel-*": [
+      3
+    ],
+    "extrafirearms:firearm-superimposed-iron-*": [
+      1
+    ],
+    "extrafirearms:firearm-superimposed-meteoriciron-*": [
+      1
+    ],
+    "extrafirearms:firearm-volleygun-steel-*": [
+      3
+    ],
+    "extrafirearms:firearm-wheelaxe-steel-*": [
+      3
+    ],
+    "extrafirearms:firearm-wheellockcarabine-steel-*": [
+      3
+    ],
+    "extrafirearms:firearm-wheellockcarabine-iron-*": [
+      1
+    ],
+    "extrafirearms:firearm-wheellockcarabine-meteoriciron-*": [
+      1
+    ],
+    "extrafirearms:firearm-wheellockrifle-steel-*": [
+      3
+    ],
+    "extrafirearms:firearm-wheellockrifle-iron-*": [
+      1
+    ],
+    "extrafirearms:firearm-wheellockrifle-meteoriciron-*": [
+      1
+    ],
+    "extrafirearms:firearm-arquebus-steel-*": [
+      3
+    ],
+    "extrafirearms:firearm-arquebus-iron-*": [
+      1
+    ],
+    "extrafirearms:firearm-arquebus-meteoriciron-*": [
+      1
+    ],
+    "extrafirearms:firearm-blunderbuss-steel-*": [
+      3
+    ],
+    "ancientweaponry:cutlass-tinbronze": [
+      2
+    ],
+    "ancientweaponry:cutlass-bismuthbronze": [
+      2
+    ],
+    "ancientweaponry:cutlass-blackbronze": [
+      2
+    ],
+    "ancientweaponry:cutlass-gold": [
+      3
+    ],
+    "ancientweaponry:cutlass-silver": [
+      3
+    ],
+    "ancientweaponry:cutlass-iron": [
+      3
+    ],
+    "ancientweaponry:cutlass-meteoriciron": [
+      3,
+      3
+    ],
+    "ancientweaponry:cutlass-steel": [
+      3,
+      3
+    ],
+    "ancientweaponry:cutlass-lockalloy": [
+      3,
+      3
+    ],
+    "ancientweaponry:zweihander-iron": [
+      3
+    ],
+    "ancientweaponry:zweihander-gold": [
+      3
+    ],
+    "ancientweaponry:zweihander-silver": [
+      3
+    ],
+    "ancientweaponry:zweihander-meteoriciron": [
+      3,
+      3
+    ],
+    "ancientweaponry:zweihander-steel": [
+      3,
+      3,
+      3
+    ],
+    "ancientweaponry:zweihander-lockalloy": [
+      3,
+      3
+    ],
+    "ancientweaponry:hasta-wooden-steel": [
+      3
+    ],
+    "ancientweaponry:hasta-wooden-gold": [
+      3
+    ],
+    "ancientweaponry:hasta-wooden-silver": [
+      3
+    ],
+    "ancientweaponry:hasta-metal-steel": [
+      3,
+      3
+    ],
+    "ancientweaponry:hasta-metal-gold": [
+      3
+    ],
+    "ancientweaponry:hasta-metal-silver": [
+      3
+    ],
+    "ancientweaponry:canopener-steel": [
+      3,
+      3
+    ],
+    "ancientweaponry:canopener-gold": [
+      3
+    ],
+    "ancientweaponry:canopener-silver": [
+      3
+    ],
+    "forlornadditions:claymore": [
+      3,
+      3
+    ],
+    "forlornadditions:dagger": [
+      3
+    ],
+    "forlornadditions:warhammer": [
+      3,
+      3
+    ],
+    "forlornadditions:forlornbow-forlorn": [
+      3,
+      3
+    ],
+    "forlornadditions:armor-head-zealot-forlornzealot": [
+      3
+    ],
+    "forlornadditions:armor-body-zealot-forlornzealot": [
+      3,
+      3
+    ],
+    "forlornadditions:armor-legs-zealot-forlornzealot": [
+      3
+    ],
+    "forlornadditions:armor-head-acolyte-forlornacolyte": [
+      3
+    ],
+    "forlornadditions:armor-body-acolyte-forlornacolyte": [
+      3,
+      3
+    ],
+    "forlornadditions:armor-legs-acolyte-forlornacolyte": [
+      3
+    ],
+    "walkingstick:walkingstick": [
+      1
+    ],
+    "walkingstick:walkingstick-fine": [
+      2
+    ],
+    "walkingstick:walkingstick-blackthorn": [
+      1
+    ],
+    "walkingstick:walkingstick-cowskull": [
+      1
+    ],
+    "walkingstick:walkingstick-shepherds": [
+      1
+    ],
+    "walkingstick:walkingstick-witch": [
+      2
+    ],
+    "walkingstick:walkingstick-lantern": [
+      2
+    ],
+    "walkingstick:walkingstick-jonas": [
+      2,
+      2
+    ],
+    "walkingstick:walkingstick-reinforced": [
+      3,
+      2
+    ],
+    "walkingstick:walkingstick-architect": [
+      3,
+      3
+    ],
+    "walkingstick:walkingstick-pathfinder": [
+      3,
+      3
+    ],
+    "walkingstick:walkingstick-blackguard": [
+      3,
+      3
+    ],
+    "walkingstick:walkingstick-forlorn": [
+      3,
+      3
+    ],
+    "walkingstick:hidden-blade": [
+      3,
+      3
+    ],
+    "walkingstick:hidden-gun": [
+      3
+    ],
+    "walkingstick:walkingstick-sling": [
+      3
+    ],
+    "shield-crude": [
+      1
+    ],
+    "shield-blackguard": [
+      2
+    ],
+    "roundshield-*-tinbronze": [
+      2
+    ],
+    "roundshield-*-bismuthbronze": [
+      2
+    ],
+    "roundshield-*-blackbronze": [
+      2
+    ],
+    "roundshield-*-gold": [
+      3
+    ],
+    "roundshield-*-silver": [
+      3
+    ],
+    "roundshield-*-iron": [
+      3
+    ],
+    "roundshield-*-meteoriciron": [
+      3
+    ],
+    "roundshield-*-steel": [
+      3,
+      3
+    ],
+    "*pickaxe-meteoricsteel": [
+      3,
+      3,
+      3
+    ],
+    "*shovel-meteoricsteel": [
+      3,
+      3,
+      3
+    ],
+    "*scythe-meteoricsteel": [
+      3,
+      3,
+      3
+    ],
+    "*knife-generic-meteoricsteel": [
+      3,
+      3,
+      3
+    ],
+    "*blade-falx-meteoricsteel": [
+      3,
+      3,
+      3
+    ],
+    "spear-generic-meteoricsteel": [
+      3,
+      3,
+      3
+    ],
+    "*pickaxe-blacksteel": [
+      3,
+      3,
+      3
+    ],
+    "*pickaxe-redsteel": [
+      3,
+      3,
+      3
+    ],
+    "*pickaxe-bluesteel": [
+      3,
+      3,
+      3
+    ],
+    "*shovel-blacksteel": [
+      3,
+      3,
+      3
+    ],
+    "*shovel-redsteel": [
+      3,
+      3,
+      3
+    ],
+    "*shovel-bluesteel": [
+      3,
+      3,
+      3
+    ],
+    "*scythe-blacksteel": [
+      3,
+      3,
+      3
+    ],
+    "*scythe-redsteel": [
+      3,
+      3,
+      3
+    ],
+    "*scythe-bluesteel": [
+      3,
+      3,
+      3
+    ],
+    "*knife-generic-blacksteel": [
+      3,
+      3,
+      3
+    ],
+    "*knife-generic-redsteel": [
+      3,
+      3,
+      3
+    ],
+    "*knife-generic-bluesteel": [
+      3,
+      3,
+      3
+    ],
+    "armory:axe-long-plain-blacksteel": [
+      3,
+      3,
+      3
+    ],
+    "armory:axe-long-plain-redsteel": [
+      3,
+      3,
+      3
+    ],
+    "armory:axe-long-plain-bluesteel": [
+      3,
+      3,
+      3
+    ],
+    "armory:sword-great-plain-blacksteel": [
+      3,
+      3,
+      3
+    ],
+    "armory:sword-great-plain-redsteel": [
+      3,
+      3,
+      3
+    ],
+    "armory:sword-great-plain-bluesteel": [
+      3,
+      3,
+      3
+    ],
+    "armory:sword-long-plain-blacksteel": [
+      3,
+      3,
+      3
+    ],
+    "armory:sword-long-plain-redsteel": [
+      3,
+      3,
+      3
+    ],
+    "armory:sword-long-plain-bluesteel": [
+      3,
+      3,
+      3
+    ],
+    "armory:sword-short-plain-blacksteel": [
+      3,
+      3,
+      3
+    ],
+    "armory:sword-short-plain-redsteel": [
+      3,
+      3,
+      3
+    ],
+    "armory:sword-short-plain-bluesteel": [
+      3,
+      3,
+      3
+    ],
+    "armory:javelin-plain-blacksteel": [
+      3,
+      3,
+      3
+    ],
+    "armory:javelin-plain-redsteel": [
+      3,
+      3,
+      3
+    ],
+    "armory:javelin-plain-bluesteel": [
+      3,
+      3,
+      3
+    ],
+    "armory:pike-plain-blacksteel": [
+      3,
+      3,
+      3
+    ],
+    "armory:pike-plain-redsteel": [
+      3,
+      3,
+      3
+    ],
+    "armory:pike-plain-bluesteel": [
+      3,
+      3,
+      3
+    ],
+    "armory:club-plain-blacksteel": [
+      3,
+      3,
+      3
+    ],
+    "armory:club-plain-redsteel": [
+      3,
+      3,
+      3
+    ],
+    "armory:club-plain-bluesteel": [
+      3,
+      3,
+      3
+    ],
+    "armory:mace-plain-blacksteel": [
+      3,
+      3,
+      3
+    ],
+    "armory:mace-plain-redsteel": [
+      3,
+      3,
+      3
+    ],
+    "armory:mace-plain-bluesteel": [
+      3,
+      3,
+      3
+    ],
+    "armory:poleaxe-plain-blacksteel": [
+      3,
+      3,
+      3
+    ],
+    "armory:poleaxe-plain-redsteel": [
+      3,
+      3,
+      3
+    ],
+    "armory:poleaxe-plain-bluesteel": [
+      3,
+      3,
+      3
+    ],
+    "armory:halberd-plain-blacksteel": [
+      3,
+      3,
+      3
+    ],
+    "armory:halberd-plain-redsteel": [
+      3,
+      3,
+      3
+    ],
+    "armory:halberd-plain-bluesteel": [
+      3,
+      3,
+      3
+    ],
+    "armory:quarterstaff-plain-blacksteel": [
+      3,
+      3,
+      3
+    ],
+    "armory:quarterstaff-plain-redsteel": [
+      3,
+      3,
+      3
+    ],
+    "armory:quarterstaff-plain-bluesteel": [
+      3,
+      3,
+      3
+    ],
+    "armory:sabre-plain-blacksteel": [
+      3,
+      3,
+      3
+    ],
+    "armory:sabre-plain-redsteel": [
+      3,
+      3,
+      3
+    ],
+    "armory:sabre-plain-bluesteel": [
+      3,
+      3,
+      3
+    ],
+    "*blade-falx-blacksteel": [
+      3,
+      3,
+      3
+    ],
+    "*blade-falx-redsteel": [
+      3,
+      3,
+      3
+    ],
+    "*blade-falx-bluesteel": [
+      3,
+      3,
+      3
+    ],
+    "*blade-falx-rosegold": [
+      3,
+      3,
+      3
+    ],
+    "*blade-falx-sterlingsilver": [
+      3,
+      3,
+      3
+    ],
+    "vanillaarmory:blade-*-*bronze": [
+      2
+    ],
+    "vanillaarmory:blade-*-gold": [
+      3
+    ],
+    "vanillaarmory:blade-*-silver": [
+      3
+    ],
+    "vanillaarmory:blade-*-iron": [
+      3
+    ],
+    "vanillaarmory:blade-*-meteoriciron": [
+      3,
+      3
+    ],
+    "vanillaarmory:blade-*-steel": [
+      3,
+      3,
+      3
+    ],
+    "vanillaarmory:axe-*-*bronze": [
+      2
+    ],
+    "vanillaarmory:axe-*-gold": [
+      3
+    ],
+    "vanillaarmory:axe-*-silver": [
+      3
+    ],
+    "vanillaarmory:axe-*-iron": [
+      3
+    ],
+    "vanillaarmory:axe-*-meteoriciron": [
+      3,
+      3
+    ],
+    "vanillaarmory:axe-*-steel": [
+      3,
+      3,
+      3
+    ],
+    "vanillaarmory:club-*-*bronze": [
+      2
+    ],
+    "vanillaarmory:club-*-gold": [
+      3
+    ],
+    "vanillaarmory:club-*-silver": [
+      3
+    ],
+    "vanillaarmory:club-*-iron": [
+      3
+    ],
+    "vanillaarmory:club-*-meteoriciron": [
+      3,
+      3
+    ],
+    "vanillaarmory:club-*-steel": [
+      3,
+      3,
+      3
+    ],
+    "vanillaarmory:knife-*-*bronze": [
+      2
+    ],
+    "vanillaarmory:knife-*-gold": [
+      3
+    ],
+    "vanillaarmory:knife-*-silver": [
+      3
+    ],
+    "vanillaarmory:knife-*-iron": [
+      3
+    ],
+    "vanillaarmory:knife-*-meteoriciron": [
+      3,
+      3
+    ],
+    "vanillaarmory:knife-*-steel": [
+      3,
+      3,
+      3
+    ],
+    "vanillaarmory:spear-*-*bronze": [
+      2
+    ],
+    "vanillaarmory:spear-*-gold": [
+      3
+    ],
+    "vanillaarmory:spear-*-silver": [
+      3
+    ],
+    "vanillaarmory:spear-*-iron": [
+      3
+    ],
+    "vanillaarmory:spear-*-meteoriciron": [
+      3,
+      3
+    ],
+    "vanillaarmory:spear-*-steel": [
+      3,
+      3,
+      3
+    ],
+    "vanillaarmory:spear-*-ornate*": [
+      3
+    ],
+    "vanillaarmory:*-relic*": [
+      3,
+      3
+    ],
+    "vanillaarmory:bow-*": [
+      3,
+      3
+    ],
+    "vanillaarmory:buckler-*": [
+      3
+    ],
+    "vanillaarmory:forlorn-shield": [
+      3,
+      3
+    ],
+    "vanillaarmory:sturdyleatherarmor-head": [
+      3
+    ],
+    "vanillaarmory:sturdyleatherarmor-legs": [
+      3
+    ],
+    "vanillaarmory:sturdyleatherarmor-body": [
+      3,
+      3
+    ],
+    "vanillaarmory:bonearmor-head": [
+      1
+    ],
+    "vanillaarmory:bonearmor-legs": [
+      1
+    ],
+    "vanillaarmory:bonearmor-body": [
+      1,
+      1
+    ],
+    "vanillaarmory:woodarmor-head": [
+      1
+    ],
+    "vanillaarmory:woodarmor-legs": [
+      1
+    ],
+    "vanillaarmory:woodarmor-body": [
+      1,
+      1
+    ]
+  },
+  "custom_variants_sockets_tiers": [
+    {
+      "ItemCode": "canjewelry:cantiara-normal-tiara",
+      "AttributeKey": "carcassus",
+      "SocketTiers": {
+        "tinbronze": [
+          1
+        ],
+        "bismuthbronze": [
+          1
+        ],
+        "blackbronze": [
+          1
+        ],
+        "gold": [
+          1,
+          1
+        ],
+        "silver": [
+          1,
+          1
+        ],
+        "iron": [
+          1,
+          1,
+          1
+        ],
+        "meteoriciron": [
+          1,
+          2,
+          1
+        ],
+        "steel": [
+          1,
+          2,
+          1
+        ],
+        "rosegold": [
+          1,
+          1
+        ],
+        "sterlingsilver": [
+          1,
+          1
+        ],
+        "blacksteel": [
+          2,
+          2,
+          2
+        ],
+        "redsteel": [
+          2,
+          3,
+          2
+        ],
+        "bluesteel": [
+          2,
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "ItemCode": "canjewelry:canrottenkingmask-normal",
+      "AttributeKey": "metal",
+      "SocketTiers": {
+        "tinbronze": [
+          1
+        ],
+        "bismuthbronze": [
+          1
+        ],
+        "blackbronze": [
+          1
+        ],
+        "gold": [
+          1
+        ],
+        "silver": [
+          1
+        ],
+        "iron": [
+          1
+        ],
+        "meteoriciron": [
+          2
+        ],
+        "steel": [
+          2
+        ],
+        "rosegold": [
+          1
+        ],
+        "sterlingsilver": [
+          1
+        ],
+        "blacksteel": [
+          2
+        ],
+        "redsteel": [
+          3
+        ],
+        "bluesteel": [
+          3
+        ]
+      }
+    },
+    {
+      "ItemCode": "canjewelry:cansimplenecklace-normal-neck",
+      "AttributeKey": "loop",
+      "SocketTiers": {
+        "tinbronze": [
+          1
+        ],
+        "bismuthbronze": [
+          1
+        ],
+        "blackbronze": [
+          1
+        ],
+        "gold": [
+          1
+        ],
+        "silver": [
+          1
+        ],
+        "iron": [
+          1
+        ],
+        "meteoriciron": [
+          2
+        ],
+        "steel": [
+          2
+        ],
+        "rosegold": [
+          1
+        ],
+        "sterlingsilver": [
+          1
+        ],
+        "blacksteel": [
+          2
+        ],
+        "redsteel": [
+          3
+        ],
+        "bluesteel": [
+          3
+        ]
+      }
+    },
+    {
+      "ItemCode": "canjewelry:canmonocle-normal",
+      "AttributeKey": "loop",
+      "SocketTiers": {
+        "tinbronze": [
+          1
+        ],
+        "bismuthbronze": [
+          1
+        ],
+        "blackbronze": [
+          1
+        ],
+        "gold": [
+          1
+        ],
+        "silver": [
+          1
+        ],
+        "iron": [
+          1
+        ],
+        "meteoriciron": [
+          2
+        ],
+        "steel": [
+          2
+        ],
+        "rosegold": [
+          1
+        ],
+        "sterlingsilver": [
+          1
+        ],
+        "blacksteel": [
+          2
+        ],
+        "redsteel": [
+          3
+        ],
+        "bluesteel": [
+          3
+        ]
+      }
+    },
+    {
+      "ItemCode": "canjewelry:canhoruseye-normal",
+      "AttributeKey": "metal",
+      "SocketTiers": {
+        "tinbronze": [
+          1
+        ],
+        "bismuthbronze": [
+          1
+        ],
+        "blackbronze": [
+          1
+        ],
+        "gold": [
+          1
+        ],
+        "silver": [
+          1
+        ],
+        "iron": [
+          1
+        ],
+        "meteoriciron": [
+          1
+        ],
+        "steel": [
+          1
+        ],
+        "rosegold": [
+          1
+        ],
+        "sterlingsilver": [
+          1
+        ],
+        "blacksteel": [
+          2
+        ],
+        "redsteel": [
+          2
+        ],
+        "bluesteel": [
+          2
+        ]
+      }
+    }
+  ],
+  "pan_take_per_use": 8,
+  "gem_type_to_buff": {
+    "diamond": "walkspeed",
+    "corundum": "miningSpeedMul",
+    "emerald": "maxhealthExtraPoints",
+    "fluorite": "meleeWeaponsDamage",
+    "lapislazuli": "hungerrate",
+    "malachite": "wildCropDropRate",
+    "olivine_peridot": "armorDurabilityLoss",
+    "olivine": "armorDurabilityLoss",
+    "quartz": "oreDropRate",
+    "uranium": "healingeffectivness",
+    "ruby": "rangedWeaponsDamage",
+    "citrine": "animalLootDropRate",
+    "berylaquamarine": "walkspeed",
+    "berylbixbite": "miningSpeedMul",
+    "corundumruby": "rangedWeaponsDamage",
+    "corundumsapphire": "vesselContentsDropRate",
+    "garnetalmandine": "bowDrawingStrength",
+    "garnetandradite": "animalSeekingRange",
+    "garnetgrossular": "vesselContentsDropRate",
+    "garnetpyrope": "animalLootDropRate",
+    "garnetspessartine": "meleeWeaponsDamage",
+    "garnetuvarovite": "rangedWeaponsSpeed",
+    "spinelred": "armorWalkSpeedAffectedness",
+    "topazamber": "meleeWeaponsDamage",
+    "topazblue": "wildCropDropRate",
+    "topazpink": "animalHarvestingTime",
+    "tourmalinerubellite": "wildCropDropRate",
+    "tourmalineschorl": "mechanicalsDamage",
+    "tourmalineverdelite": "armorDurabilityLoss",
+    "tourmalinewatermelon": "rangedWeaponsAcc",
+    "amethyst": "candurability",
+    "topaz": "temporalgrasp",
+    "pearl": "maxhealthExtraPoints"
+  },
+  "max_buff_values": {
+    "walkspeed": 0.5,
+    "maxhealthExtraPoints": 25.0,
+    "hungerrate": -0.2
+  },
+  "gems_drops_table": {
+    "ore-*-malachite-*": [
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-chipped-malachite",
+        "avg": 0.005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-flawed-malachite",
+        "avg": 0.0005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-normal-malachite",
+        "avg": 5E-05,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      }
+    ],
+    "ore-*-pentlandite-*": [
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-chipped-fluorite",
+        "avg": 0.005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-flawed-fluorite",
+        "avg": 0.0005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-normal-fluorite",
+        "avg": 5E-05,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      }
+    ],
+    "ore-*-rhodochrosite-*": [
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-chipped-corundum",
+        "avg": 0.005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-flawed-corundum",
+        "avg": 0.0005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-normal-corundum",
+        "avg": 5E-05,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      }
+    ],
+    "ore-*-quartz-*": [
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-chipped-quartz",
+        "avg": 0.001,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-flawed-quartz",
+        "avg": 0.005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-normal-quartz",
+        "avg": 0.0005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      }
+    ],
+    "rock-limestone": [
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-chipped-malachite",
+        "avg": 0.001,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-flawed-malachite",
+        "avg": 0.0005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-normal-malachite",
+        "avg": 5E-05,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-chipped-amethyst",
+        "avg": 0.001,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-flawed-amethyst",
+        "avg": 0.0005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-normal-amethyst",
+        "avg": 5E-05,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      }
+    ],
+    "rock-granite": [
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-chipped-quartz",
+        "avg": 0.001,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-flawed-quartz",
+        "avg": 0.0005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-normal-quartz",
+        "avg": 5E-05,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-chipped-ruby",
+        "avg": 0.001,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-flawed-ruby",
+        "avg": 0.0005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-normal-ruby",
+        "avg": 5E-05,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-chipped-citrine",
+        "avg": 0.001,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-flawed-citrine",
+        "avg": 0.0005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-normal-citrine",
+        "avg": 5E-05,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      }
+    ],
+    "rock-whitemarble": [
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-chipped-malachite",
+        "avg": 0.001,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-flawed-malachite",
+        "avg": 0.0005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-normal-malachite",
+        "avg": 5E-05,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      }
+    ],
+    "rock-chalk": [
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-chipped-malachite",
+        "avg": 0.001,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-flawed-malachite",
+        "avg": 0.0005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-normal-malachite",
+        "avg": 5E-05,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      }
+    ],
+    "rock-greenmarble": [
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-chipped-malachite",
+        "avg": 0.001,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-flawed-malachite",
+        "avg": 0.0005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-normal-malachite",
+        "avg": 5E-05,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      }
+    ],
+    "rock-kimberlite": [
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-chipped-diamond",
+        "avg": 0.001,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-flawed-diamond",
+        "avg": 0.0005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-normal-diamond",
+        "avg": 5E-05,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-chipped-ruby",
+        "avg": 0.001,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-flawed-ruby",
+        "avg": 0.0005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-normal-ruby",
+        "avg": 5E-05,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      }
+    ],
+    "rock-suevite": [
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-chipped-diamond",
+        "avg": 0.001,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-flawed-diamond",
+        "avg": 0.0005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-normal-diamond",
+        "avg": 5E-05,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      }
+    ],
+    "rock-phyllite": [
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-chipped-corundum",
+        "avg": 0.001,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-flawed-corundum",
+        "avg": 0.0005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-normal-corundum",
+        "avg": 5E-05,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-chipped-amethyst",
+        "avg": 0.001,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-flawed-amethyst",
+        "avg": 0.0005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-normal-amethyst",
+        "avg": 5E-05,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      }
+    ],
+    "rock-shale": [
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-chipped-emerald",
+        "avg": 0.001,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-flawed-emerald",
+        "avg": 0.0005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-normal-emerald",
+        "avg": 5E-05,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      }
+    ],
+    "rock-slate": [
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-chipped-fluorite",
+        "avg": 0.001,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-flawed-fluorite",
+        "avg": 0.0005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-normal-fluorite",
+        "avg": 5E-05,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      }
+    ],
+    "rock-claystone": [
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-chipped-quartz",
+        "avg": 0.001,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-flawed-quartz",
+        "avg": 0.0005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-normal-quartz",
+        "avg": 5E-05,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-chipped-topaz",
+        "avg": 0.001,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-flawed-topaz",
+        "avg": 0.0005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-normal-topaz",
+        "avg": 5E-05,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      }
+    ],
+    "rock-andesite": [
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-chipped-uranium",
+        "avg": 0.001,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-flawed-uranium",
+        "avg": 0.0005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-normal-uranium",
+        "avg": 5E-05,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      }
+    ],
+    "rock-sandstone": [
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-chipped-olivine",
+        "avg": 0.001,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-flawed-olivine",
+        "avg": 0.0005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-normal-olivine",
+        "avg": 5E-05,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      }
+    ],
+    "rock-conglomerate": [
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-chipped-fluorite",
+        "avg": 0.001,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-flawed-fluorite",
+        "avg": 0.0005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-normal-fluorite",
+        "avg": 5E-05,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      }
+    ],
+    "rock-chert": [
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-chipped-uranium",
+        "avg": 0.001,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-flawed-uranium",
+        "avg": 0.0005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-normal-uranium",
+        "avg": 5E-05,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-chipped-citrine",
+        "avg": 0.001,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-flawed-citrine",
+        "avg": 0.0005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-normal-citrine",
+        "avg": 5E-05,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      }
+    ],
+    "rock-basalt": [
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-chipped-quartz",
+        "avg": 0.001,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-flawed-quartz",
+        "avg": 0.0005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-normal-quartz",
+        "avg": 5E-05,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      }
+    ],
+    "rock-peridotite": [
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-chipped-olivine",
+        "avg": 0.001,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-flawed-olivine",
+        "avg": 0.0005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-normal-olivine",
+        "avg": 5E-05,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      }
+    ],
+    "rock-bauxite": [
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-chipped-lapislazuli",
+        "avg": 0.001,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-flawed-lapislazuli",
+        "avg": 0.0005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-normal-lapislazuli",
+        "avg": 5E-05,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      }
+    ],
+    "ore-lapislazuli-*": [
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-chipped-lapislazuli",
+        "avg": 0.01,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-flawed-lapislazuli",
+        "avg": 0.005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-normal-lapislazuli",
+        "avg": 0.0005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      }
+    ],
+    "ore-quartz-*": [
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-chipped-quartz",
+        "avg": 0.01,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-flawed-quartz",
+        "avg": 0.005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-normal-quartz",
+        "avg": 0.0005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      }
+    ],
+    "ore-fluorite-*": [
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-chipped-fluorite",
+        "avg": 0.01,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-flawed-fluorite",
+        "avg": 0.005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      },
+      {
+        "TypeCollectable": 1,
+        "NameCollectable": "canjewelry:gem-rough-normal-fluorite",
+        "avg": 0.0005,
+        "var": 0.0,
+        "LastDrop": true,
+        "DropModbyStat": "canjewelrygemsdroprate",
+        "attributes": ""
+      }
+    ]
+  },
+  "debugMode": false,
+  "chance_gem_drop_on_item_broken": 0.2,
+  "buffs_to_show_gui": [
+    "walkspeed",
+    "miningSpeedMul",
+    "maxhealthExtraPoints",
+    "meleeWeaponsDamage",
+    "hungerrate",
+    "wildCropDropRate",
+    "armorDurabilityLoss",
+    "oreDropRate",
+    "healingeffectivness",
+    "rangedWeaponsDamage",
+    "animalLootDropRate",
+    "vesselContentsDropRate",
+    "bowDrawingStrength",
+    "animalSeekingRange",
+    "armorWalkSpeedAffectedness",
+    "rangedWeaponsSpeed",
+    "mechanicalsDamage",
+    "rangedWeaponsAcc"
+  ],
+  "config_version": "0.6.17",
+  "PossibleGemBuffs": {
+    "diamond": [
+      "walkspeed"
+    ],
+    "corundum": [
+      "miningSpeedMul"
+    ],
+    "emerald": [
+      "maxhealthExtraPoints"
+    ],
+    "fluorite": [
+      "meleeWeaponsDamage"
+    ],
+    "lapislazuli": [
+      "hungerrate"
+    ],
+    "malachite": [
+      "wildCropDropRate"
+    ],
+    "olivine": [
+      "armorDurabilityLoss"
+    ],
+    "quartz": [
+      "oreDropRate"
+    ],
+    "uranium": [
+      "healingeffectivness"
+    ],
+    "ruby": [
+      "rangedWeaponsDamage"
+    ],
+    "citrine": [
+      "animalLootDropRate"
+    ],
+    "berylaquamarine": [
+      "walkspeed"
+    ],
+    "berylbixbite": [
+      "miningSpeedMul"
+    ],
+    "corundumruby": [
+      "rangedWeaponsDamage"
+    ],
+    "corundumsapphire": [
+      "vesselContentsDropRate"
+    ],
+    "garnetalmandine": [
+      "bowDrawingStrength"
+    ],
+    "garnetandradite": [
+      "animalSeekingRange"
+    ],
+    "garnetgrossular": [
+      "vesselContentsDropRate"
+    ],
+    "garnetpyrope": [
+      "animalLootDropRate"
+    ],
+    "garnetspessartine": [
+      "meleeWeaponsDamage"
+    ],
+    "topazamber": [
+      "meleeWeaponsDamage"
+    ],
+    "topazblue": [
+      "wildCropDropRate"
+    ],
+    "tourmalinerubellite": [
+      "wildCropDropRate"
+    ],
+    "tourmalineverdelite": [
+      "armorDurabilityLoss"
+    ],
+    "garnetuvarovite": [
+      "rangedWeaponsSpeed"
+    ],
+    "spinelred": [
+      "armorWalkSpeedAffectedness"
+    ],
+    "topazpink": [
+      "animalHarvestingTime"
+    ],
+    "tourmalineschorl": [
+      "mechanicalsDamage"
+    ],
+    "tourmalinewatermelon": [
+      "rangedWeaponsAcc"
+    ],
+    "amethyst": [
+      "candurability"
+    ],
+    "topaz": [
+      "temporalgrasp"
+    ],
+    "pearl": [
+      "maxhealthExtraPoints"
+    ]
+  },
+  "BuffAttributesDict": {
+    "walkspeed": {
+      "MainStatValueRange": {
+        "1": [
+          0.01,
+          0.03
+        ],
+        "2": [
+          0.04,
+          0.06
+        ],
+        "3": [
+          0.07,
+          0.09
+        ]
+      },
+      "SecondaryStatValueRange": {
+        "1": [
+          0.01,
+          0.01
+        ],
+        "2": [
+          0.02,
+          0.02
+        ],
+        "3": [
+          0.04,
+          0.04
+        ]
+      },
+      "PossibleSecondaryStats": [
+        "miningSpeedMul"
+      ]
+    },
+    "miningSpeedMul": {
+      "MainStatValueRange": {
+        "1": [
+          0.01,
+          0.03
+        ],
+        "2": [
+          0.04,
+          0.06
+        ],
+        "3": [
+          0.07,
+          0.09
+        ]
+      },
+      "SecondaryStatValueRange": {
+        "1": [
+          0.01,
+          0.01
+        ],
+        "2": [
+          0.02,
+          0.03
+        ],
+        "3": [
+          0.04,
+          0.05
+        ]
+      },
+      "PossibleSecondaryStats": [
+        "walkspeed"
+      ]
+    },
+    "maxhealthExtraPoints": {
+      "MainStatValueRange": {
+        "1": [
+          1.0,
+          1.5
+        ],
+        "2": [
+          2.0,
+          2.5
+        ],
+        "3": [
+          4.0,
+          4.5
+        ]
+      },
+      "SecondaryStatValueRange": {
+        "1": [
+          0.3,
+          0.5
+        ],
+        "2": [
+          0.6,
+          0.8
+        ],
+        "3": [
+          1.0,
+          1.2
+        ]
+      },
+      "PossibleSecondaryStats": [
+        "hungerrate",
+        "animalLootDropRate"
+      ]
+    },
+    "meleeWeaponsDamage": {
+      "MainStatValueRange": {
+        "1": [
+          0.01,
+          0.03
+        ],
+        "2": [
+          0.04,
+          0.05
+        ],
+        "3": [
+          0.06,
+          0.08
+        ]
+      },
+      "SecondaryStatValueRange": {
+        "1": [
+          0.01,
+          0.01
+        ],
+        "2": [
+          0.02,
+          0.03
+        ],
+        "3": [
+          0.04,
+          0.05
+        ]
+      },
+      "PossibleSecondaryStats": [
+        "armorDurabilityLoss",
+        "hungerrate"
+      ]
+    },
+    "hungerrate": {
+      "MainStatValueRange": {
+        "1": [
+          -0.01,
+          -0.03
+        ],
+        "2": [
+          -0.04,
+          -0.06
+        ],
+        "3": [
+          -0.07,
+          -0.1
+        ]
+      },
+      "SecondaryStatValueRange": {
+        "1": [
+          -0.01,
+          -0.01
+        ],
+        "2": [
+          -0.02,
+          -0.03
+        ],
+        "3": [
+          -0.04,
+          -0.05
+        ]
+      },
+      "PossibleSecondaryStats": [
+        "meleeWeaponsDamage",
+        "walkspeed"
+      ]
+    },
+    "wildCropDropRate": {
+      "MainStatValueRange": {
+        "1": [
+          0.01,
+          0.02
+        ],
+        "2": [
+          0.03,
+          0.05
+        ],
+        "3": [
+          0.06,
+          0.09
+        ]
+      },
+      "SecondaryStatValueRange": {
+        "1": [
+          0.01,
+          0.01
+        ],
+        "2": [
+          0.02,
+          0.03
+        ],
+        "3": [
+          0.04,
+          0.05
+        ]
+      },
+      "PossibleSecondaryStats": [
+        "walkspeed",
+        "animalSeekingRange"
+      ]
+    },
+    "armorDurabilityLoss": {
+      "MainStatValueRange": {
+        "1": [
+          -0.01,
+          -0.05
+        ],
+        "2": [
+          -0.06,
+          -0.1
+        ],
+        "3": [
+          -0.11,
+          -0.15
+        ]
+      },
+      "SecondaryStatValueRange": {
+        "1": [
+          -0.01,
+          -0.01
+        ],
+        "2": [
+          -0.02,
+          -0.03
+        ],
+        "3": [
+          -0.04,
+          -0.05
+        ]
+      },
+      "PossibleSecondaryStats": [
+        "healingeffectivness",
+        "armorWalkSpeedAffectedness"
+      ]
+    },
+    "oreDropRate": {
+      "MainStatValueRange": {
+        "1": [
+          0.01,
+          0.03
+        ],
+        "2": [
+          0.04,
+          0.07
+        ],
+        "3": [
+          0.08,
+          0.11
+        ]
+      },
+      "SecondaryStatValueRange": {
+        "1": [
+          0.01,
+          0.01
+        ],
+        "2": [
+          0.02,
+          0.03
+        ],
+        "3": [
+          0.04,
+          0.05
+        ]
+      },
+      "PossibleSecondaryStats": [
+        "candurability"
+      ]
+    },
+    "healingeffectivness": {
+      "MainStatValueRange": {
+        "1": [
+          0.01,
+          0.05
+        ],
+        "2": [
+          0.06,
+          0.1
+        ],
+        "3": [
+          0.11,
+          0.13
+        ]
+      },
+      "SecondaryStatValueRange": {
+        "1": [
+          0.01,
+          0.01
+        ],
+        "2": [
+          0.02,
+          0.03
+        ],
+        "3": [
+          0.04,
+          0.05
+        ]
+      },
+      "PossibleSecondaryStats": [
+        "walkspeed",
+        "animalHarvestingTime"
+      ]
+    },
+    "rangedWeaponsDamage": {
+      "MainStatValueRange": {
+        "1": [
+          0.01,
+          0.02
+        ],
+        "2": [
+          0.03,
+          0.04
+        ],
+        "3": [
+          0.05,
+          0.09
+        ]
+      },
+      "SecondaryStatValueRange": {
+        "1": [
+          0.01,
+          0.01
+        ],
+        "2": [
+          0.02,
+          0.02
+        ],
+        "3": [
+          0.03,
+          0.05
+        ]
+      },
+      "PossibleSecondaryStats": [
+        "walkspeed",
+        "rangedWeaponsAcc",
+        "hungerrate"
+      ]
+    },
+    "animalLootDropRate": {
+      "MainStatValueRange": {
+        "1": [
+          0.01,
+          0.02
+        ],
+        "2": [
+          0.03,
+          0.04
+        ],
+        "3": [
+          0.05,
+          0.09
+        ]
+      },
+      "SecondaryStatValueRange": {
+        "1": [
+          0.01,
+          0.01
+        ],
+        "2": [
+          0.02,
+          0.02
+        ],
+        "3": [
+          0.03,
+          0.05
+        ]
+      },
+      "PossibleSecondaryStats": [
+        "animalHarvestingTime",
+        "hungerrate"
+      ]
+    },
+    "vesselContentsDropRate": {
+      "MainStatValueRange": {
+        "1": [
+          0.01,
+          0.02
+        ],
+        "2": [
+          0.03,
+          0.04
+        ],
+        "3": [
+          0.05,
+          0.09
+        ]
+      },
+      "SecondaryStatValueRange": {
+        "1": [
+          0.01,
+          0.01
+        ],
+        "2": [
+          0.02,
+          0.02
+        ],
+        "3": [
+          0.03,
+          0.05
+        ]
+      },
+      "PossibleSecondaryStats": [
+        "walkspeed",
+        "maxhealthExtraPoints"
+      ]
+    },
+    "animalSeekingRange": {
+      "MainStatValueRange": {
+        "1": [
+          -0.01,
+          -0.02
+        ],
+        "2": [
+          -0.03,
+          -0.04
+        ],
+        "3": [
+          -0.05,
+          -0.09
+        ]
+      },
+      "SecondaryStatValueRange": {
+        "1": [
+          -0.01,
+          -0.01
+        ],
+        "2": [
+          -0.02,
+          -0.02
+        ],
+        "3": [
+          -0.03,
+          -0.05
+        ]
+      },
+      "PossibleSecondaryStats": [
+        "hungerrate",
+        "meleeWeaponsDamage"
+      ]
+    },
+    "rangedWeaponsSpeed": {
+      "MainStatValueRange": {
+        "1": [
+          0.01,
+          0.02
+        ],
+        "2": [
+          0.03,
+          0.04
+        ],
+        "3": [
+          0.05,
+          0.08
+        ]
+      },
+      "SecondaryStatValueRange": {
+        "1": [
+          0.01,
+          0.01
+        ],
+        "2": [
+          0.02,
+          0.02
+        ],
+        "3": [
+          0.03,
+          0.04
+        ]
+      },
+      "PossibleSecondaryStats": [
+        "armorWalkSpeedAffectedness",
+        "bowDrawingStrength"
+      ]
+    },
+    "animalHarvestingTime": {
+      "MainStatValueRange": {
+        "1": [
+          -0.01,
+          -0.02
+        ],
+        "2": [
+          -0.03,
+          -0.04
+        ],
+        "3": [
+          -0.05,
+          -0.09
+        ]
+      },
+      "SecondaryStatValueRange": {
+        "1": [
+          -0.01,
+          -0.01
+        ],
+        "2": [
+          -0.02,
+          -0.02
+        ],
+        "3": [
+          -0.03,
+          -0.05
+        ]
+      },
+      "PossibleSecondaryStats": [
+        "walkspeed",
+        "mechanicalsDamage"
+      ]
+    },
+    "mechanicalsDamage": {
+      "MainStatValueRange": {
+        "1": [
+          0.01,
+          0.02
+        ],
+        "2": [
+          0.03,
+          0.04
+        ],
+        "3": [
+          0.05,
+          0.08
+        ]
+      },
+      "SecondaryStatValueRange": {
+        "1": [
+          0.01,
+          0.01
+        ],
+        "2": [
+          0.02,
+          0.02
+        ],
+        "3": [
+          0.03,
+          0.05
+        ]
+      },
+      "PossibleSecondaryStats": [
+        "maxhealthExtraPoints",
+        "oreDropRate"
+      ]
+    },
+    "rangedWeaponsAcc": {
+      "MainStatValueRange": {
+        "1": [
+          0.01,
+          0.02
+        ],
+        "2": [
+          0.03,
+          0.04
+        ],
+        "3": [
+          0.05,
+          0.07
+        ]
+      },
+      "SecondaryStatValueRange": {
+        "1": [
+          0.01,
+          0.01
+        ],
+        "2": [
+          0.02,
+          0.02
+        ],
+        "3": [
+          0.03,
+          0.05
+        ]
+      },
+      "PossibleSecondaryStats": [
+        "mechanicalsDamage"
+      ]
+    },
+    "armorWalkSpeedAffectedness": {
+      "MainStatValueRange": {
+        "1": [
+          -0.01,
+          -0.02
+        ],
+        "2": [
+          -0.03,
+          -0.04
+        ],
+        "3": [
+          -0.05,
+          -0.09
+        ]
+      },
+      "SecondaryStatValueRange": {
+        "1": [
+          -0.01,
+          -0.01
+        ],
+        "2": [
+          -0.02,
+          -0.02
+        ],
+        "3": [
+          -0.03,
+          -0.05
+        ]
+      },
+      "PossibleSecondaryStats": [
+        "walkspeed",
+        "hungerrate"
+      ]
+    },
+    "bowDrawingStrength": {
+      "MainStatValueRange": {
+        "1": [
+          0.01,
+          0.02
+        ],
+        "2": [
+          0.03,
+          0.04
+        ],
+        "3": [
+          0.05,
+          0.09
+        ]
+      },
+      "SecondaryStatValueRange": {
+        "1": [
+          0.01,
+          0.01
+        ],
+        "2": [
+          0.02,
+          0.02
+        ],
+        "3": [
+          0.03,
+          0.05
+        ]
+      },
+      "PossibleSecondaryStats": [
+        "candurability",
+        "armorDurabilityLoss"
+      ]
+    },
+    "candurability": {
+      "MainStatValueRange": {
+        "1": [
+          0.01,
+          0.2
+        ],
+        "2": [
+          0.29,
+          0.45
+        ],
+        "3": [
+          0.7,
+          0.95
+        ]
+      },
+      "SecondaryStatValueRange": {
+        "1": [
+          0.01,
+          0.02
+        ],
+        "2": [
+          0.03,
+          0.09
+        ],
+        "3": [
+          0.1,
+          0.15
+        ]
+      },
+      "PossibleSecondaryStats": [
+        "meleeWeaponsDamage",
+        "miningSpeedMul"
+      ]
+    },
+    "temporalgrasp": {
+      "MainStatValueRange": {
+        "1": [
+          0.2,
+          0.33
+        ],
+        "2": [
+          0.35,
+          0.69
+        ],
+        "3": [
+          0.89,
+          1.0
+        ]
+      },
+      "SecondaryStatValueRange": {
+        "1": [
+          0.01,
+          0.02
+        ],
+        "2": [
+          0.03,
+          0.09
+        ],
+        "3": [
+          0.1,
+          0.15
+        ]
+      },
+      "PossibleSecondaryStats": [
+        "walkspeed",
+        "miningSpeedMul"
+      ]
+    }
+  },
+  "CuttingAttributesDict": {
+    "round": {
+      "GrindingBuffIncreaseMultipliers": [
+        1.0,
+        1.33,
+        1.65
+      ]
+    },
+    "baguette": {
+      "GrindingBuffIncreaseMultipliers": [
+        1.0,
+        1.33,
+        1.5
+      ]
+    },
+    "pear": {
+      "GrindingBuffIncreaseMultipliers": [
+        1.7,
+        1.05,
+        1.05
+      ]
+    }
+  },
+  "wirehank_per_strap": 4,
+  "socketTiersColorsWords": [
+    "green",
+    "blue",
+    "purple"
+  ],
+  "socketTiersColors": [
+    "2FE147",
+    "2B3FF7",
+    "9214C9"
+  ],
+  "TemporalGraspBlockList": [
+    "game:soil-*",
+    "game:rawclay-blue-*",
+    "game:forestfloor-*",
+    "game:stalagsection-*",
+    "game:ore-bountiful-*",
+    "game:ore-rich-*",
+    "game:ore-poor-*",
+    "game:ore-medium-*",
+    "game:peat-*",
+    "game:lakeice"
+  ],
+  "TemporalGraspEnabled": true,
+  "minFineForMistake": 0.01,
+  "maxFineForMistake": 0.08,
+  "TurnOffBuffs": false,
+  "minGrinderProcessingSpeed": 0.3,
+  "grinderStage1Counter": 10,
+  "grinderStage2Counter": 20,
+  "panningDrops": {
+    "game:rock-suevite": [
+      {
+        "code": "canjewelry:gem-rough-normal-diamond",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.2,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-flawed-diamond",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.3,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-diamond",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.5,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-bountiful-hematite-.*": [
+      {
+        "code": "canjewelry:gem-rough-normal-corundum",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.4,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-flawed-corundum",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.7,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-corundum",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.8,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-rich-hematite-.*": [
+      {
+        "code": "canjewelry:gem-rough-normal-corundum",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.2,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-flawed-corundum",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.5,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-corundum",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.6,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-medium-hematite-.*": [
+      {
+        "code": "canjewelry:gem-rough-flawed-corundum",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.4,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-corundum",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.5,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-poor-hematite-.*": [
+      {
+        "code": "canjewelry:gem-rough-chipped-corundum",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.4,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-bountiful-malachite-.*": [
+      {
+        "code": "canjewelry:gem-rough-normal-malachite",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.4,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-flawed-malachite",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.7,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-malachite",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.8,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-rich-malachite-.*": [
+      {
+        "code": "canjewelry:gem-rough-normal-malachite",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.2,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-flawed-malachite",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.5,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-malachite",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.6,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-medium-malachite-.*": [
+      {
+        "code": "canjewelry:gem-rough-flawed-malachite",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.4,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-malachite",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.5,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-poor-malachite-.*": [
+      {
+        "code": "canjewelry:gem-rough-chipped-malachite",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.4,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-bountiful-bismuthinite-.*": [
+      {
+        "code": "canjewelry:gem-rough-normal-lapislazuli",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.4,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-flawed-lapislazuli",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.7,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-lapislazuli",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.8,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-rich-bismuthinite-.*": [
+      {
+        "code": "canjewelry:gem-rough-normal-lapislazuli",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.2,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-flawed-lapislazuli",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.5,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-lapislazuli",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.6,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-medium-bismuthinite-.*": [
+      {
+        "code": "canjewelry:gem-rough-flawed-lapislazuli",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.4,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-lapislazuli",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.5,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-poor-bismuthinite-.*": [
+      {
+        "code": "canjewelry:gem-rough-chipped-lapislazuli",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.4,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-bountiful-cassiterite-.*": [
+      {
+        "code": "canjewelry:gem-rough-normal-olivine",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.4,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-flawed-olivine",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.7,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-olivine",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.8,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-rich-cassiterite-.*": [
+      {
+        "code": "canjewelry:gem-rough-normal-olivine",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.2,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-flawed-olivine",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.5,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-olivine",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.6,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-medium-cassiterite-.*": [
+      {
+        "code": "canjewelry:gem-rough-flawed-olivine",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.4,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-olivine",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.5,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-poor-cassiterite-.*": [
+      {
+        "code": "canjewelry:gem-rough-chipped-olivine",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.4,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-bountiful-sphalerite-.*": [
+      {
+        "code": "canjewelry:gem-rough-normal-fluorite",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.4,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-flawed-fluorite",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.7,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-fluorite",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.8,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-rich-sphalerite-.*": [
+      {
+        "code": "canjewelry:gem-rough-normal-fluorite",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.2,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-flawed-fluorite",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.5,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-fluorite",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.6,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-medium-sphalerite-.*": [
+      {
+        "code": "canjewelry:gem-rough-flawed-fluorite",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.4,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-fluorite",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.5,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-poor-sphalerite-.*": [
+      {
+        "code": "canjewelry:gem-rough-chipped-fluorite",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.4,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-bountiful-quartz_nativesilver-.*": [
+      {
+        "code": "canjewelry:gem-rough-normal-quartz",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.4,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-flawed-quartz",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.7,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-quartz",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.8,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-rich-quartz_nativesilver-.*": [
+      {
+        "code": "canjewelry:gem-rough-normal-quartz",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.2,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-flawed-quartz",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.5,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-quartz",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.6,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-medium-quartz_nativesilver-.*": [
+      {
+        "code": "canjewelry:gem-rough-flawed-quartz",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.4,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-quartz",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.5,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-poor-quartz_nativesilver-.*": [
+      {
+        "code": "canjewelry:gem-rough-chipped-quartz",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.4,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-bountiful-quartz_nativegold-.*": [
+      {
+        "code": "canjewelry:gem-rough-normal-quartz",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.4,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-flawed-quartz",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.7,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-quartz",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.8,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-rich-quartz_nativegold-.*": [
+      {
+        "code": "canjewelry:gem-rough-normal-quartz",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.2,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-flawed-quartz",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.5,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-quartz",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.6,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-medium-quartz_nativegold-.*": [
+      {
+        "code": "canjewelry:gem-rough-flawed-quartz",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.4,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-quartz",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.5,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-poor-quartz_nativegold-.*": [
+      {
+        "code": "canjewelry:gem-rough-chipped-quartz",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.4,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-bountiful-limonite-.*": [
+      {
+        "code": "canjewelry:gem-rough-normal-uranium",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.4,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-flawed-uranium",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.7,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-uranium",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.8,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-rich-limonite-.*": [
+      {
+        "code": "canjewelry:gem-rough-normal-uranium",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.2,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-flawed-uranium",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.5,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-uranium",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.6,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-medium-limonite-.*": [
+      {
+        "code": "canjewelry:gem-rough-flawed-uranium",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.4,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-uranium",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.5,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-poor-limonite-.*": [
+      {
+        "code": "canjewelry:gem-rough-chipped-uranium",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.4,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-bountiful-ilmenite-.*": [
+      {
+        "code": "canjewelry:gem-rough-normal-diamond",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.4,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-flawed-diamond",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.7,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-diamond",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.8,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-normal-emerald",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.4,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-flawed-emerald",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.7,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-emerald",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.8,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-rich-ilmenite-.*": [
+      {
+        "code": "canjewelry:gem-rough-normal-diamond",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.2,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-flawed-diamond",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.5,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-diamond",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.6,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-normal-emerald",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.2,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-flawed-emerald",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.5,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-emerald",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.6,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-medium-ilmenite-.*": [
+      {
+        "code": "canjewelry:gem-rough-flawed-diamond",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.4,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-diamond",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.5,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-flawed-emerald",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.4,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-emerald",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.5,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-poor-ilmenite-.*": [
+      {
+        "code": "canjewelry:gem-rough-chipped-diamond",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.4,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-emerald",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.4,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-bountiful-nativecopper-.*": [
+      {
+        "code": "canjewelry:gem-rough-normal-ruby",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.4,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-flawed-ruby",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.7,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-ruby",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.8,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-rich-nativecopper-.*": [
+      {
+        "code": "canjewelry:gem-rough-normal-ruby",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.2,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-flawed-ruby",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.5,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-ruby",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.6,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-medium-nativecopper-.*": [
+      {
+        "code": "canjewelry:gem-rough-flawed-ruby",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.4,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-ruby",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.5,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-poor-nativecopper-.*": [
+      {
+        "code": "canjewelry:gem-rough-chipped-ruby",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.4,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-bountiful-magnetite-.*": [
+      {
+        "code": "canjewelry:gem-rough-normal-citrine",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.4,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-flawed-citrine",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.7,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-citrine",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.8,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-rich-magnetite-.*": [
+      {
+        "code": "canjewelry:gem-rough-normal-citrine",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.2,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-flawed-citrine",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.5,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-citrine",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.6,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-medium-magnetite-.*": [
+      {
+        "code": "canjewelry:gem-rough-flawed-citrine",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.4,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-citrine",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.5,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-poor-magnetite-.*": [
+      {
+        "code": "canjewelry:gem-rough-chipped-citrine",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.4,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-bountiful-uranium-.*": [
+      {
+        "code": "canjewelry:gem-rough-normal-uranium",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.5,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-flawed-uranium",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.75,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-uranium",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.9,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-rich-uranium-.*": [
+      {
+        "code": "canjewelry:gem-rough-normal-uranium",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.3,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-flawed-uranium",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.6,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-uranium",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.7,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-medium-uranium-.*": [
+      {
+        "code": "canjewelry:gem-rough-flawed-uranium",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.5,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-uranium",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.6,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-poor-uranium-.*": [
+      {
+        "code": "canjewelry:gem-rough-chipped-uranium",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.6,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-bountiful-galena-.*": [
+      {
+        "code": "canjewelry:gem-rough-normal-amethyst",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.5,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-flawed-amethyst",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.75,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-amethyst",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.9,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-rich-galena-.*": [
+      {
+        "code": "canjewelry:gem-rough-normal-amethyst",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.3,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-flawed-amethyst",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.6,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-amethyst",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.7,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-medium-galena-.*": [
+      {
+        "code": "canjewelry:gem-rough-flawed-amethyst",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.5,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      },
+      {
+        "code": "canjewelry:gem-rough-chipped-amethyst",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.6,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ],
+    "@(ore|crystalizedore)-poor-galena-.*": [
+      {
+        "code": "canjewelry:gem-rough-chipped-amethyst",
+        "type": "item",
+        "stackSize": 1,
+        "attributes": null,
+        "chance": {
+          "offset": 0.0,
+          "avg": 0.6,
+          "var": 0.0,
+          "dist": 0
+        },
+        "dropModbyStat": null,
+        "requiresPerk": null
+      }
+    ]
+  },
+  "gemExtractionReturnChance": 0.5,
+  "jewelryBreakOnExtractionChance": 0.1,
+  "LevelOfSocketByType": {
+    "canjewelry:cansocket-gold": 2,
+    "canjewelry:cansocket-silver": 2,
+    "canjewelry:cansocket-bismuthbronze": 1,
+    "canjewelry:cansocket-tinbronze": 1,
+    "canjewelry:cansocket-blackbronze": 1,
+    "canjewelry:cansocket-iron": 2,
+    "canjewelry:cansocket-meteoriciron": 2,
+    "canjewelry:cansocket-steel": 3
+  }
+}

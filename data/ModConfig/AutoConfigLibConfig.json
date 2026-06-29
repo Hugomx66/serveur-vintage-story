@@ -1,0 +1,18 @@
+{
+  "AutoMergeClientServerConfig": true,
+  "RegisterWorldConfig": true,
+  "UseInstanceTypeOverFieldType": false,
+  "ConfigLibWindowImprovements": true,
+  "AutoGroupByName": true,
+  "ComplexTypeAllignment": 2,
+  "ComplexTypePaddingMultiplier": 1.0,
+  "DefaultMaxStringLength": 128,
+  "AutoInitializeNullFields": false,
+  "IgnoreBrowseAbleAttribute": false,
+  "ShowPresenceOfUnsupportedTypes": false,
+  "ShowObsoleteMembers": false,
+  "ShowConfigDefinition": false,
+  "ShowNonProtoMembersInProtoClass": false,
+  "UseDefaultImplementationForCollections": false,
+  "IgnoreAccessModifier": false
+}

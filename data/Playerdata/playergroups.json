@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "Uid": 10,
+    "Name": "Xlib",
+    "CreatedDate": "Monday, 29 June 2026",
+    "OwnerUID": null,
+    "ChatHistory": [],
+    "Md5Identifier": "12d2234e51c3d502816181243816d587",
+    "CreatedByPrivateMessage": false,
+    "JoinPolicy": "everyone"
+  }
+]

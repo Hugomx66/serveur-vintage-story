@@ -1,0 +1,5 @@
+{
+  "EnablePressure": true,
+  "BaseSafeDepth": 10,
+  "EnableSchematicCrafting": false
+}

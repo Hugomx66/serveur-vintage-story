@@ -1,0 +1,384 @@
+{
+  "note": "If you change the maximal tier of an ability you must also adjust the number of values! It is recommended to make backups from edited config files. If an error occurs your changes will be overwritten by default values. Values must be integers.",
+  "name": "combat",
+  "id": 6,
+  "maxLevel": 25,
+  "minLevel": 1,
+  "expBase": 100.0,
+  "expMult": 50.0,
+  "expValue": 4.0,
+  "expEquation": "quadratic",
+  "enabled": true,
+  "expLossOnDeath": 0.0,
+  "maxExpLossOnDeath": 0.0,
+  "abilities": [
+    {
+      "name": "swordsman",
+      "id": 0,
+      "maxTier": 3,
+      "minLevel": 1,
+      "enabled": true,
+      "values": [
+        10,
+        1,
+        20,
+        20,
+        2,
+        40,
+        20,
+        2,
+        60
+      ]
+    },
+    {
+      "name": "archer",
+      "id": 1,
+      "maxTier": 3,
+      "minLevel": 1,
+      "enabled": true,
+      "values": [
+        10,
+        1,
+        20,
+        20,
+        2,
+        40,
+        20,
+        2,
+        60
+      ]
+    },
+    {
+      "name": "spearman",
+      "id": 2,
+      "maxTier": 3,
+      "minLevel": 1,
+      "enabled": true,
+      "values": [
+        10,
+        1,
+        20,
+        20,
+        2,
+        40,
+        20,
+        2,
+        60
+      ]
+    },
+    {
+      "name": "swiftspear",
+      "id": 3,
+      "maxTier": 3,
+      "minLevel": 5,
+      "enabled": true,
+      "values": [
+        15,
+        25,
+        35
+      ]
+    },
+    {
+      "name": "tank",
+      "id": 4,
+      "maxTier": 2,
+      "minLevel": 1,
+      "enabled": true,
+      "values": [
+        10,
+        1,
+        20,
+        20,
+        1,
+        40
+      ]
+    },
+    {
+      "name": "defender",
+      "id": 5,
+      "maxTier": 2,
+      "minLevel": 1,
+      "enabled": true,
+      "values": [
+        3,
+        5
+      ]
+    },
+    {
+      "name": "guardian",
+      "id": 6,
+      "maxTier": 2,
+      "minLevel": 1,
+      "enabled": true,
+      "values": [
+        5,
+        10
+      ]
+    },
+    {
+      "name": "toolmastery",
+      "id": 7,
+      "maxTier": 3,
+      "minLevel": 1,
+      "enabled": true,
+      "values": [
+        5,
+        2,
+        25,
+        15,
+        3,
+        40,
+        15,
+        3,
+        75
+      ]
+    },
+    {
+      "name": "ironfist",
+      "id": 8,
+      "maxTier": 3,
+      "minLevel": 1,
+      "enabled": true,
+      "values": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "monk",
+      "id": 9,
+      "maxTier": 3,
+      "minLevel": 1,
+      "enabled": true,
+      "values": [
+        6,
+        9,
+        12
+      ]
+    },
+    {
+      "name": "looter",
+      "id": 10,
+      "maxTier": 2,
+      "minLevel": 1,
+      "enabled": true,
+      "values": [
+        10,
+        1,
+        20,
+        20,
+        2,
+        40
+      ]
+    },
+    {
+      "name": "heavyarmorexpert",
+      "id": 11,
+      "maxTier": 2,
+      "minLevel": 3,
+      "enabled": true,
+      "values": [
+        20,
+        25,
+        40,
+        50
+      ]
+    },
+    {
+      "name": "lightarmorexpert",
+      "id": 12,
+      "maxTier": 2,
+      "minLevel": 3,
+      "enabled": true,
+      "values": [
+        5,
+        10
+      ]
+    },
+    {
+      "name": "armoredagility",
+      "id": 13,
+      "maxTier": 2,
+      "minLevel": 3,
+      "enabled": true,
+      "values": [
+        20,
+        40
+      ]
+    },
+    {
+      "name": "warrior",
+      "id": 14,
+      "maxTier": 1,
+      "minLevel": 5,
+      "enabled": true,
+      "values": [
+        40
+      ]
+    },
+    {
+      "name": "bully",
+      "id": 15,
+      "maxTier": 2,
+      "minLevel": 5,
+      "enabled": true,
+      "values": [
+        0,
+        1,
+        10,
+        5,
+        1,
+        25
+      ]
+    },
+    {
+      "name": "sniper",
+      "id": 16,
+      "maxTier": 2,
+      "minLevel": 5,
+      "enabled": true,
+      "values": [
+        15,
+        30
+      ]
+    },
+    {
+      "name": "freshflesh",
+      "id": 17,
+      "maxTier": 3,
+      "minLevel": 5,
+      "enabled": true,
+      "values": [
+        10,
+        20,
+        30
+      ]
+    },
+    {
+      "name": "shovelknight",
+      "id": 18,
+      "maxTier": 2,
+      "minLevel": 5,
+      "enabled": true,
+      "values": [
+        1,
+        10,
+        2,
+        15
+      ]
+    },
+    {
+      "name": "adrenalinerush",
+      "id": 19,
+      "maxTier": 2,
+      "minLevel": 7,
+      "enabled": true,
+      "values": [
+        20,
+        20,
+        25,
+        10,
+        24,
+        20,
+        40,
+        50,
+        12,
+        20
+      ]
+    },
+    {
+      "name": "vampire",
+      "id": 20,
+      "maxTier": 3,
+      "minLevel": 7,
+      "enabled": true,
+      "values": [
+        3,
+        80,
+        5,
+        65,
+        7,
+        50
+      ]
+    },
+    {
+      "name": "drunkenmaster",
+      "id": 21,
+      "maxTier": 1,
+      "minLevel": 8,
+      "enabled": true,
+      "values": [
+        50,
+        50
+      ]
+    },
+    {
+      "name": "burningrage",
+      "id": 22,
+      "maxTier": 3,
+      "minLevel": 10,
+      "enabled": true,
+      "values": [
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "name": "bloodlust",
+      "id": 23,
+      "maxTier": 1,
+      "minLevel": 10,
+      "enabled": true,
+      "values": [
+        2,
+        3,
+        16,
+        10
+      ]
+    },
+    {
+      "name": "monsterexpert",
+      "id": 24,
+      "maxTier": 1,
+      "minLevel": 10,
+      "enabled": true,
+      "values": []
+    }
+  ],
+  "Attributes": {
+    "enableAbilitiesInPvP": "False"
+  },
+  "ClassExpMultipliers": {
+    "commoner": 0.1,
+    "blackguard": 0.2,
+    "vanguard": 0.15,
+    "archer": 0.15,
+    "clockmaker": -0.2,
+    "hunter": 0.0,
+    "malefactor": -0.1,
+    "miner": -0.15,
+    "forager": -0.15,
+    "gatherer": -0.15,
+    "mercenary": 0.15,
+    "alchemyst": -0.15,
+    "artisan": -0.15,
+    "chef": -0.15,
+    "homesteader": -0.15,
+    "lumberjack": -0.1,
+    "mason": -0.15,
+    "merchant": -0.1,
+    "mystic": -0.15,
+    "smith": -0.1,
+    "alchemist": -0.1,
+    "blackguardgloo": 0.2,
+    "clockmakergloo": -0.15,
+    "commonergloo": 0.1,
+    "huntergloo": 0.15,
+    "malefactorgloo": 0.1,
+    "oathkeeper": 0.15,
+    "tailorgloo": -0.15,
+    "rustmage": -0.15
+  }
+}

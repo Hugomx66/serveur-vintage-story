@@ -1,0 +1,39 @@
+version: 3
+
+
+####################################
+## Medieval Architecture Settings ##
+####################################
+
+
+
+# Disable certain blocks
+
+
+# Enable/ Disable all archways and tiny windows
+enable-small-archways: true
+ #  (default: True) 
+
+# Enable/ Disable all roof blocks
+enable-roofs: false
+ #  (default: False) 
+
+# Enable/ Disable window panes
+enable-windows: true
+ #  (default: True) 
+
+# Enable/ Disable windowsills
+enable-windowsill: true
+ #  (default: True) 
+
+# Enable/ Disable trapdoors
+enable-trapdoors: true
+ #  (default: True) 
+
+# Enable/ Disable brazier
+enable-brazier: true
+ #  (default: True) 
+
+# Enable/ Disable gates, drawbridges and portcullis
+enable-gate: true
+ #  (default: True) 

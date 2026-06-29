@@ -1,0 +1,424 @@
+version: 6
+
+
+# Nest Spawnrates:
+
+worldgen_dragon: 1
+ # from 0 to 10000 with step of 0.001 (default: 1) 
+worldgen_wyvern: 1
+ # from 0 to 1000 with step of 0.001 (default: 1) 
+worldgen_drake: 1
+ # from 0 to 1000 with step of 0.001 (default: 1) 
+runtime_dragon: 1
+ # from 0 to 1000 with step of 0.001 (default: 1) 
+runtime_wyvern: 1
+ # from 0 to 1000 with step of 0.001 (default: 1) 
+runtime_drake: 1
+ # from 0 to 1000 with step of 0.001 (default: 1) 
+weaver_spawnrate: 0.06
+ # from 0 to 1 with step of 0.001 (default: 0.06) 
+weaver_minplayerdistance: 32
+ # from 1 to 50 with step of 1 (default: 32) 
+weaver_minseconds: 300
+ # from 60 to 3600 with step of 60 (default: 300) 
+
+
+######################
+## Growth Duration: ##
+######################
+
+
+
+# Creature Growth Time:
+
+growtime_alpine: 1
+ # from 0.01 to 1 with step of 0.01 (default: 1) 
+growtime_maplewing: 1
+ # from 0.01 to 1 with step of 0.01 (default: 1) 
+growtime_cuprocaudus: 1
+ # from 0.01 to 1 with step of 0.01 (default: 1) 
+growtime_weaver: 1
+ # from 0.01 to 1 with step of 0.01 (default: 1) 
+
+
+# Incubation Time:
+
+incubationtime_alpini: 1
+ # from 0.1 to 10 with step of 0.1 (default: 1) 
+incubationtime_autumnus: 1
+ # from 0.1 to 10 with step of 0.1 (default: 1) 
+incubationtime_cuprocaudus: 1
+ # from 0.1 to 10 with step of 0.1 (default: 1) 
+incubationtime_weaver: 1
+ # from 0.1 to 10 with step of 0.1 (default: 1) 
+
+
+# Item Behavior
+
+mainbag_storage: 24
+ # from 8 to 24 with step of 4 (default: 24) 
+
+
+#############################
+## Mounted Speed Settings: ##
+#############################
+
+
+
+# Maximum Stamina:
+
+maxstamina_alpine: 1
+ # from 0.1 to 2 with step of 0.1 (default: 1) 
+maxstamina_maplewing: 1
+ # from 0.1 to 2 with step of 0.1 (default: 1) 
+maxstamina_cuprocaudus: 1
+ # from 0.1 to 2 with step of 0.1 (default: 1) 
+maxstamina_weaver: 1
+ # from 0.1 to 2 with step of 0.1 (default: 1) 
+
+
+
+
+
+#########################
+## Alpine Boneknapper: ##
+#########################
+
+
+
+# Walkback:
+
+walkback_speed_alpine: 0.017
+ # from 0.001 to 0.1 with step of 0.001 (default: 0.017) 
+walkback_turnspeed_alpine: 1
+ # from 0.1 to 2 with step of 0.05 (default: 1) 
+
+
+# Walk:
+
+walk_speed_alpine: 0.008
+ # from 0.001 to 0.1 with step of 0.001 (default: 0.008) 
+walk_turnspeed_alpine: 1
+ # from 0.1 to 2 with step of 0.05 (default: 1) 
+
+
+# Pace:
+
+pace_speed_alpine: 0.053
+ # from 0.01 to 0.2 with step of 0.001 (default: 0.053) 
+pace_turnspeed_alpine: 0.5
+ # from 0.1 to 2 with step of 0.05 (default: 0.5) 
+pace_staminacost_alpine: 0.1
+ # from 0 to 1 with step of 0.05 (default: 0.1) 
+
+
+# Trot:
+
+trot_speed_alpine: 0.09
+ # from 0.01 to 0.2 with step of 0.001 (default: 0.09) 
+trot_turnspeed_alpine: 0.5
+ # from 0.1 to 2 with step of 0.05 (default: 0.5) 
+trot_staminacost_alpine: 0.2
+ # from 0 to 1 with step of 0.05 (default: 0.2) 
+
+
+# Flyback:
+
+flyback_speed_alpine: 0.015
+ # from 0.01 to 0.2 with step of 0.001 (default: 0.015) 
+flyback_turnspeed_alpine: 1
+ # from 0.1 to 2 with step of 0.05 (default: 1) 
+
+
+# Slow Flight:
+
+glide_speed_alpine: 0.036
+ # from 0.01 to 0.2 with step of 0.001 (default: 0.036) 
+glide_turnspeed_alpine: 0.5
+ # from 0.1 to 2 with step of 0.05 (default: 0.5) 
+glide_staminacost_alpine: 0
+ # from 0 to 1 with step of 0.05 (default: 0) 
+glide_ascendSpeed_alpine: 1
+ # from 1 to 20 with step of 1 (default: 1) 
+glide_descendSpeed_alpine: 6
+ # from 1 to 20 with step of 1 (default: 6) 
+
+
+# Fast Flight:
+
+fly_speed_alpine: 0.06
+ # from 0.01 to 0.5 with step of 0.001 (default: 0.06) 
+fly_turnspeed_alpine: 0.25
+ # from 0.1 to 2 with step of 0.05 (default: 0.25) 
+fly_staminacost_alpine: 0.15
+ # from 0 to 1 with step of 0.05 (default: 0.15) 
+fly_ascendSpeed_alpine: 4
+ # from 1 to 20 with step of 1 (default: 4) 
+fly_descendSpeed_alpine: 5
+ # from 1 to 20 with step of 1 (default: 5) 
+
+
+# Swim:
+
+swim_speed_alpine: 0.012
+ # from 0.001 to 0.1 with step of 0.001 (default: 0.012) 
+swim_turnspeed_alpine: 1
+ # from 0.1 to 2 with step of 0.05 (default: 1) 
+
+
+# Swimback:
+
+swimback_speed_alpine: 0.012
+ # from 0.001 to 0.1 with step of 0.001 (default: 0.012) 
+swimback_turnspeed_alpine: 1
+ # from 0.1 to 2 with step of 0.05 (default: 1) 
+
+
+#######################
+## Maplewing Wyvern: ##
+#######################
+
+
+
+# Walkback:
+
+walkback_speed_maplewing: 0.017
+ # from 0.001 to 0.1 with step of 0.001 (default: 0.017) 
+walkback_turnspeed_maplewing: 1
+ # from 0.1 to 2 with step of 0.05 (default: 1) 
+
+
+# Walk:
+
+walk_speed_maplewing: 0.017
+ # from 0.001 to 0.1 with step of 0.001 (default: 0.017) 
+walk_turnspeed_maplewing: 1
+ # from 0.1 to 2 with step of 0.05 (default: 1) 
+
+
+# Sprint:
+
+sprint_speed_maplewing: 0.098
+ # from 0.01 to 0.2 with step of 0.001 (default: 0.098) 
+sprint_turnspeed_maplewing: 0.5
+ # from 0.1 to 2 with step of 0.05 (default: 0.5) 
+sprint_staminacost_maplewing: 0.2
+ # from 0 to 1 with step of 0.05 (default: 0.2) 
+
+
+# Flyback:
+
+flyback_speed_maplewing: 0.015
+ # from 0.01 to 0.2 with step of 0.001 (default: 0.015) 
+flyback_turnspeed_maplewing: 1
+ # from 0.1 to 2 with step of 0.05 (default: 1) 
+
+
+# Slow Flight:
+
+glide_speed_maplewing: 0.036
+ # from 0.01 to 0.2 with step of 0.001 (default: 0.036) 
+glide_turnspeed_maplewing: 0.75
+ # from 0.1 to 2 with step of 0.05 (default: 0.75) 
+glide_staminacost_maplewing: 0
+ # from 0 to 1 with step of 0.05 (default: 0) 
+glide_ascendSpeed_maplewing: 1
+ # from 1 to 20 with step of 1 (default: 1) 
+glide_descendSpeed_maplewing: 6
+ # from 1 to 20 with step of 1 (default: 6) 
+
+
+# Fast Flight:
+
+fly_speed_maplewing: 0.06
+ # from 0.01 to 0.5 with step of 0.001 (default: 0.06) 
+fly_turnspeed_maplewing: 0.25
+ # from 0.1 to 2 with step of 0.05 (default: 0.25) 
+fly_staminacost_maplewing: 0.2
+ # from 0 to 1 with step of 0.05 (default: 0.2) 
+fly_ascendSpeed_maplewing: 4
+ # from 1 to 20 with step of 1 (default: 4) 
+fly_descendSpeed_maplewing: 5
+ # from 1 to 20 with step of 1 (default: 5) 
+
+
+# Swim:
+
+swim_speed_maplewing: 0.012
+ # from 0.001 to 0.1 with step of 0.001 (default: 0.012) 
+swim_turnspeed_maplewing: 1
+ # from 0.1 to 2 with step of 0.05 (default: 1) 
+
+
+# Swimback:
+
+swimback_speed_maplewing: 0.012
+ # from 0.001 to 0.1 with step of 0.001 (default: 0.012) 
+swimback_turnspeed_maplewing: 1
+ # from 0.1 to 2 with step of 0.05 (default: 1) 
+
+
+#######################
+## Coppertail Drake: ##
+#######################
+
+
+
+# Walkback:
+
+walkback_speed_cuprocaudus: 0.009
+ # from 0.001 to 0.1 with step of 0.001 (default: 0.009) 
+walkback_turnspeed_cuprocaudus: 1
+ # from 0.1 to 2 with step of 0.05 (default: 1) 
+
+
+# Walk:
+
+walk_speed_cuprocaudus: 0.009
+ # from 0.001 to 0.1 with step of 0.001 (default: 0.009) 
+walk_turnspeed_cuprocaudus: 1
+ # from 0.1 to 2 with step of 0.05 (default: 1) 
+
+
+# Jog:
+
+jog_speed_cuprocaudus: 0.053
+ # from 0.01 to 0.2 with step of 0.001 (default: 0.053) 
+jog_turnspeed_cuprocaudus: 0.85
+ # from 0.1 to 2 with step of 0.05 (default: 0.85) 
+jog_staminacost_cuprocaudus: 0
+ # from 0 to 1 with step of 0.05 (default: 0) 
+
+
+# Sprint:
+
+sprint_speed_cuprocaudus: 0.105
+ # from 0.01 to 0.2 with step of 0.001 (default: 0.105) 
+sprint_turnspeed_cuprocaudus: 0.7
+ # from 0.1 to 2 with step of 0.05 (default: 0.7) 
+sprint_staminacost_cuprocaudus: 0.2
+ # from 0 to 1 with step of 0.05 (default: 0.2) 
+
+
+# Swim:
+
+swim_speed_cuprocaudus: 0.016
+ # from 0.001 to 0.1 with step of 0.001 (default: 0.016) 
+swim_turnspeed_cuprocaudus: 1
+ # from 0.1 to 2 with step of 0.05 (default: 1) 
+
+
+# Swimback:
+
+swimback_speed_cuprocaudus: 0.016
+ # from 0.001 to 0.1 with step of 0.001 (default: 0.016) 
+swimback_turnspeed_cuprocaudus: 1
+ # from 0.1 to 2 with step of 0.05 (default: 1) 
+
+
+#########################
+## Stormweaver Dragon: ##
+#########################
+
+
+
+# Walkback:
+
+walkback_speed_weaver: 0.017
+ # from 0.001 to 0.1 with step of 0.001 (default: 0.017) 
+walkback_turnspeed_weaver: 1
+ # from 0.1 to 2 with step of 0.05 (default: 1) 
+
+
+# Walk:
+
+walk_speed_weaver: 0.008
+ # from 0.001 to 0.1 with step of 0.001 (default: 0.008) 
+walk_turnspeed_weaver: 1
+ # from 0.1 to 2 with step of 0.05 (default: 1) 
+
+
+# Trot:
+
+trot_speed_weaver: 0.053
+ # from 0.01 to 0.2 with step of 0.001 (default: 0.053) 
+trot_turnspeed_weaver: 0.5
+ # from 0.1 to 2 with step of 0.05 (default: 0.5) 
+trot_staminacost_weaver: 0
+ # from 0 to 1 with step of 0.05 (default: 0) 
+
+
+# Sprint:
+
+gallop_speed_weaver: 0.09
+ # from 0.01 to 0.2 with step of 0.001 (default: 0.09) 
+gallop_turnspeed_weaver: 0.5
+ # from 0.1 to 2 with step of 0.05 (default: 0.5) 
+gallop_staminacost_weaver: 0.2
+ # from 0 to 1 with step of 0.05 (default: 0.2) 
+
+
+# Flyback:
+
+flyback_speed_weaver: 0.015
+ # from 0.01 to 0.2 with step of 0.001 (default: 0.015) 
+flyback_turnspeed_weaver: 1
+ # from 0.1 to 2 with step of 0.05 (default: 1) 
+
+
+# Slow Flight:
+
+glide_speed_weaver: 0.036
+ # from 0.01 to 0.2 with step of 0.001 (default: 0.036) 
+glide_turnspeed_weaver: 0.65
+ # from 0.1 to 2 with step of 0.05 (default: 0.65) 
+glide_staminacost_weaver: 0
+ # from 0 to 1 with step of 0.05 (default: 0) 
+glide_ascendSpeed_weaver: 1
+ # from 1 to 20 with step of 1 (default: 1) 
+glide_descendSpeed_weaver: 6
+ # from 1 to 20 with step of 1 (default: 6) 
+
+
+# Medium Flight:
+
+fly_speed_weaver: 0.064
+ # from 0.01 to 0.5 with step of 0.001 (default: 0.064) 
+fly_turnspeed_weaver: 0.45
+ # from 0.1 to 2 with step of 0.05 (default: 0.45) 
+fly_staminacost_weaver: 0.15
+ # from 0 to 1 with step of 0.05 (default: 0.15) 
+fly_ascendSpeed_weaver: 4
+ # from 1 to 20 with step of 1 (default: 4) 
+fly_descendSpeed_weaver: 5
+ # from 1 to 20 with step of 1 (default: 5) 
+
+
+# Fast Flight:
+
+flyfast_speed_weaver: 0.075
+ # from 0.01 to 0.5 with step of 0.001 (default: 0.075) 
+flyfast_turnspeed_weaver: 0.35
+ # from 0.1 to 2 with step of 0.05 (default: 0.35) 
+flyfast_staminacost_weaver: 0.25
+ # from 0 to 1 with step of 0.05 (default: 0.25) 
+flyfast_ascendSpeed_weaver: 4
+ # from 1 to 20 with step of 1 (default: 4) 
+flyfast_descendSpeed_weaver: 5
+ # from 1 to 20 with step of 1 (default: 5) 
+
+
+# Swim:
+
+swim_speed_weaver: 0.018
+ # from 0.001 to 0.1 with step of 0.001 (default: 0.018) 
+swim_turnspeed_weaver: 1
+ # from 0.1 to 2 with step of 0.05 (default: 1) 
+
+
+# Swimback:
+
+swimback_speed_weaver: 0.012
+ # from 0.001 to 0.1 with step of 0.001 (default: 0.012) 
+swimback_turnspeed_weaver: 1
+ # from 0.1 to 2 with step of 0.05 (default: 1) 

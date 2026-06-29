@@ -1,0 +1,7 @@
+version: 3
+worldgen: 1
+ # from 0 to 100 with step of 0.1 (default: 1) 
+runtimeindicus: 1
+ # from 0 to 100 with step of 0.1 (default: 1) 
+runtimecaledonius: 1
+ # from 0 to 100 with step of 0.1 (default: 1) 

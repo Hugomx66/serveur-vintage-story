@@ -1,0 +1,223 @@
+version: 2
+
+
+#####################################################
+## Client side settings (no world reload required) ##
+#####################################################
+
+bows_aiming_cursor_type: Fixed
+ # value from: None, Vanilla, Fixed, Moving, MovingNone (default: Fixed) 
+thrown_weapons_cursor_type: Fixed
+ # value from: None, Vanilla, Fixed, Moving, MovingNone (default: Fixed) 
+flip_direction_after_attack: true
+ #  (default: True) 
+directions_invert: false
+ #  (default: False) 
+directions_movement_controls: false
+ #  (default: False) 
+
+# After changing hotkeys reload the world
+directions_hotkeys_controls: false
+ #  (default: False) 
+directions_cursor_transparency: 0.5
+ # from 0 to 1 (default: 0.5) 
+directions_cursor_scale: 0.5
+ # from 0.1 to 3 (default: 0.5) 
+directions_sensitivity: 1
+ # from 0.001 to 1000 (default: 1) 
+bow_aiming_vertical_limit: 1
+ # from 0 to 2 (default: 1) 
+bow_aiming_horisontal_limit: 1
+ # from 0 to 2 (default: 1) 
+
+# Requires world reload
+bow_fov_effect: true
+ #  (default: True) 
+vanilla_actions_while_blocking: true
+ #  (default: True) 
+switch_from_immersive_first_person: true
+ #  (default: True) 
+
+
+##########################
+## Server side settings ##
+##########################
+
+
+# Allows vanilla armor and armor repair grid recipes that Combat Overhaul replaces. Requires world reload.
+vanilla_armor_grid_recipes: false
+ #  (default: False) 
+
+# Enables Combat Overhaul's Toolsmith compatibility hooks. Requires restart or world reload.
+toolsmith_integration_enabled: true
+ #  (default: True) 
+
+
+##########
+## Bows ##
+##########
+
+bow_screenshake: 1
+ # from 0 to 2 (default: 1) 
+bow_aiming_difficulty: 1
+ # from 0 to 2 (default: 1) 
+bow_fov_multiplier: 1
+ # from 0 to 5 (default: 1) 
+bows_damage_multiplier: 1
+ # from 0.2 to 5 (default: 1) 
+bows_reload_speed_multiplier: 1
+ # from 0.5 to 5 (default: 1) 
+bow_two_handed: true
+ #  (default: True) 
+arrow_ping_sound_on_hit: true
+ #  (default: True) 
+
+
+############
+## Spears ##
+############
+
+spears_directional_attacks: false
+ #  (default: False) 
+spears_aiming_difficulty: 1
+ # from 0 to 2 (default: 1) 
+spears_thrown_distance: 1
+ # from 0.5 to 5 (default: 1) 
+spears_range_damage_multiplier: 1
+ # from 0.2 to 5 (default: 1) 
+
+
+############
+## Ranged ##
+############
+
+ranged_weapons_damage_support: true
+ #  (default: True) 
+
+
+###########
+## Melee ##
+###########
+
+melee_weapons_damage_multiplier: 1
+ # from 0.2 to 5 (default: 1) 
+
+# Scales the vanilla diminishing quench damage curve. 1.0 is vanilla, 0.5 halves it, 2.0 doubles it.
+weapon_quench_damage_multiplier: 1
+ # from 0 to 5 (default: 1) 
+melee_weapon_attack_speed_multiplier: 1
+ # from 0.2 to 5 (default: 1) 
+global_attack_cooldown_ms: 1000
+ # from 0 to 5000 (default: 1000) 
+melee_weapon_stop_on_terrain_hit: true
+ #  (default: True) 
+melee_weapon_ignore_terrain_behind: false
+ #  (default: False) 
+weapon_rendering_offset: true
+ #  (default: True) 
+
+
+################
+## Damage log ##
+################
+
+
+# Requires wolrd reload
+short_entity_info: true
+ #  (default: True) 
+
+# Can causes lags in some cases
+print_range_hits: false
+ #  (default: False) 
+
+# Can causes lags in some cases
+print_melee_hits: false
+ #  (default: False) 
+
+# Can causes lags in some cases
+print_player_hits: true
+ #  (default: True) 
+
+
+########################################################
+## Debug particle settings (no world reload required) ##
+########################################################
+
+
+# Spawn particles on melee hits
+debug_hit_particles: false
+ #  (default: False) 
+
+# Draw melee weapon colliders as prticles
+debug_weapon_trail_particles: false
+ #  (default: False) 
+
+# Melee weapon collider prticles size
+debug_weapon_trail_particles_size: 0.5
+ # from 0.1 to 1 (default: 0.5) 
+
+# Spawn particle trails for projectiles
+debug_projectiles_trails_particles: false
+ #  (default: False) 
+
+# Spawn particles indicating block angles and if an entity is in block angle range
+debug_block_angles_particles: false
+ #  (default: False) 
+
+
+#########################
+## Player damage model ##
+#########################
+
+second_chance_available: true
+ #  (default: True) 
+second_chance_cooldown: 300
+ #  (default: 300) 
+player_model_torso_damage: 1
+ # from 0 to 5 (default: 1) 
+player_model_head_damage: 2
+ # from 0 to 5 (default: 2) 
+player_model_neck_damage: 2
+ # from 0 to 5 (default: 2) 
+player_model_face_damage: 1.5
+ # from 0 to 5 (default: 1.5) 
+player_model_arms_damage: 0.5
+ # from 0 to 5 (default: 0.5) 
+player_model_legs_damage: 0.5
+ # from 0 to 5 (default: 0.5) 
+
+
+#######################
+## Entities settings ##
+#######################
+
+
+
+##############
+## Bowtorns ##
+##############
+
+bowtorn_maxrange_surface: 25
+ # from 15 to 300 (default: 25) 
+bowtorn_maxrange_deep: 30
+ # from 15 to 300 (default: 30) 
+bowtorn_maxrange_tainted: 37
+ # from 15 to 300 (default: 37) 
+bowtorn_maxrange_corrupt: 45
+ # from 15 to 300 (default: 45) 
+bowtorn_maxrange_nightmare: 53
+ # from 15 to 300 (default: 53) 
+bowtorn_maxrange_gearfoot: 90
+ # from 15 to 300 (default: 90) 
+bowtorn_projectile_velocity_surface: 40
+ # from 10 to 300 (default: 40) 
+bowtorn_projectile_velocity_deep: 48
+ # from 10 to 300 (default: 48) 
+bowtorn_projectile_velocity_tainted: 56
+ # from 10 to 300 (default: 56) 
+bowtorn_projectile_velocity_corrupt: 64
+ # from 10 to 300 (default: 64) 
+bowtorn_projectile_velocity_nightmare: 72
+ # from 10 to 300 (default: 72) 
+bowtorn_projectile_velocity_gearfoot: 100
+ # from 10 to 300 (default: 100) 

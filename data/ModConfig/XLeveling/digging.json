@@ -1,0 +1,219 @@
+{
+  "note": "If you change the maximal tier of an ability you must also adjust the number of values! It is recommended to make backups from edited config files. If an error occurs your changes will be overwritten by default values. Values must be integers.",
+  "name": "digging",
+  "id": 2,
+  "maxLevel": 25,
+  "minLevel": 1,
+  "expBase": 200.0,
+  "expMult": 100.0,
+  "expValue": 8.0,
+  "expEquation": "quadratic",
+  "enabled": true,
+  "expLossOnDeath": 0.0,
+  "maxExpLossOnDeath": 0.0,
+  "abilities": [
+    {
+      "name": "claydigger",
+      "id": 0,
+      "maxTier": 3,
+      "minLevel": 1,
+      "enabled": true,
+      "values": [
+        10,
+        2,
+        30,
+        20,
+        4,
+        60,
+        20,
+        4,
+        100
+      ]
+    },
+    {
+      "name": "peatcutter",
+      "id": 1,
+      "maxTier": 3,
+      "minLevel": 1,
+      "enabled": true,
+      "values": [
+        10,
+        2,
+        30,
+        20,
+        4,
+        60,
+        20,
+        4,
+        100
+      ]
+    },
+    {
+      "name": "saltpeterdigger",
+      "id": 2,
+      "maxTier": 3,
+      "minLevel": 1,
+      "enabled": true,
+      "values": [
+        10,
+        2,
+        30,
+        20,
+        4,
+        60,
+        20,
+        4,
+        100
+      ]
+    },
+    {
+      "name": "shovelexpert",
+      "id": 3,
+      "maxTier": 3,
+      "minLevel": 1,
+      "enabled": true,
+      "values": [
+        1,
+        1,
+        2,
+        10,
+        4,
+        2,
+        2,
+        4,
+        10,
+        6,
+        2,
+        2,
+        6,
+        10,
+        8
+      ]
+    },
+    {
+      "name": "carefuldigger",
+      "id": 4,
+      "maxTier": 3,
+      "minLevel": 1,
+      "enabled": true,
+      "values": [
+        5,
+        1,
+        15,
+        5,
+        2,
+        25,
+        5,
+        2,
+        45
+      ]
+    },
+    {
+      "name": "mixedclay",
+      "id": 5,
+      "maxTier": 2,
+      "minLevel": 3,
+      "enabled": true,
+      "values": [
+        50,
+        100
+      ]
+    },
+    {
+      "name": "quickpan",
+      "id": 6,
+      "maxTier": 2,
+      "minLevel": 3,
+      "enabled": true,
+      "values": [
+        50,
+        100
+      ]
+    },
+    {
+      "name": "golddigger",
+      "id": 7,
+      "maxTier": 3,
+      "minLevel": 3,
+      "enabled": true,
+      "values": [
+        10,
+        2,
+        30,
+        20,
+        4,
+        60,
+        20,
+        4,
+        100
+      ]
+    },
+    {
+      "name": "digger",
+      "id": 8,
+      "maxTier": 1,
+      "minLevel": 5,
+      "enabled": true,
+      "values": [
+        40
+      ]
+    },
+    {
+      "name": "scrapdetector",
+      "id": 9,
+      "maxTier": 2,
+      "minLevel": 5,
+      "enabled": true,
+      "values": [
+        2,
+        4
+      ]
+    },
+    {
+      "name": "scrapspecialist",
+      "id": 10,
+      "maxTier": 2,
+      "minLevel": 5,
+      "enabled": true,
+      "values": [
+        1,
+        50,
+        2,
+        100
+      ]
+    }
+  ],
+  "Attributes": null,
+  "ClassExpMultipliers": {
+    "commoner": 0.1,
+    "miner": 0.1,
+    "archer": -0.2,
+    "hunter": -0.15,
+    "malefactor": 0.1,
+    "clockmaker": -0.15,
+    "blackguard": 0.1,
+    "forager": 0.15,
+    "vanguard": -0.05,
+    "gatherer": 0.15,
+    "mercenary": -0.05,
+    "alchemyst": -0.2,
+    "artisan": 0.1,
+    "chef": -0.2,
+    "homesteader": 0.0,
+    "lumberjack": -0.2,
+    "mason": 0.25,
+    "merchant": -0.2,
+    "mystic": -0.2,
+    "smith": -0.2,
+    "medic": -0.2,
+    "alchemist": -0.2,
+    "blackguardgloo": -0.2,
+    "clockmakergloo": -0.2,
+    "commonergloo": 0.0,
+    "huntergloo": -0.2,
+    "malefactorgloo": -0.2,
+    "oathkeeper": -0.2,
+    "tailorgloo": -0.2,
+    "rustmage": -0.2
+  }
+}

@@ -4,3 +4,6 @@
 data/Mods/
 data/Logs/
 *.log
+
+# Cache de mods decompresses, purement regenerable, inutile a versionner
+data/Cache/

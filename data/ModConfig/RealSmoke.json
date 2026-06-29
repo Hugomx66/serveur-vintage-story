@@ -1,0 +1,10 @@
+{
+  "Enabled": true,
+  "SmokeMultiplier": 1.0,
+  "MaxChimneyHeight": 16,
+  "DissipationRate": 0.14,
+  "MaxSmokeEntities": 3000,
+  "MaxSmokeDistanceToPlayer": 500,
+  "Asphyxiation": true,
+  "DisableSmallEmitters": false
+}

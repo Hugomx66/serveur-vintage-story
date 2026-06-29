@@ -1,0 +1,158 @@
+version: 1
+
+
+# Nest Spawnrates:
+
+runtime_dragon: 1
+ # from 0 to 1000 with step of 0.001 (default: 1) 
+
+
+######################
+## Growth Duration: ##
+######################
+
+growtime_rhinocroma: 1
+ # from 0.01 to 1 with step of 0.01 (default: 1) 
+
+
+# Incubation Time:
+
+incubationtime_rhinocroma: 1
+ # from 0.1 to 10 with step of 0.1 (default: 1) 
+
+
+# Item Behavior
+
+saddlebag_storage: 20
+ # from 8 to 24 with step of 4 (default: 20) 
+
+
+#############################
+## Mounted Speed Settings: ##
+#############################
+
+
+
+# Maximum Stamina:
+
+maxstamina_rhinocroma: 1
+ # from 0.1 to 2 with step of 0.1 (default: 1) 
+
+
+
+
+
+####################
+## Jewel Hornfin: ##
+####################
+
+
+
+# Walkback:
+
+walkback_speed_rhinocroma: 0.017
+ # from 0.001 to 0.1 with step of 0.001 (default: 0.017) 
+walkback_turnspeed_rhinocroma: 1.1
+ # from 0.1 to 2 with step of 0.05 (default: 1.1) 
+
+
+# Walk:
+
+walk_speed_rhinocroma: 0.012
+ # from 0.001 to 0.1 with step of 0.001 (default: 0.012) 
+walk_turnspeed_rhinocroma: 1.1
+ # from 0.1 to 2 with step of 0.05 (default: 1.1) 
+
+
+# Trot:
+
+trot_speed_rhinocroma: 0.0525
+ # from 0.01 to 0.2 with step of 0.005 (default: 0.0525) 
+trot_turnspeed_rhinocroma: 1.25
+ # from 0.1 to 2 with step of 0.05 (default: 1.25) 
+trot_staminacost_rhinocroma: 0.2
+ # from 0 to 1 with step of 0.05 (default: 0.2) 
+
+
+# Gallop
+
+gallop_speed_rhinocroma: 0.09
+ # from 0.01 to 0.2 with step of 0.01 (default: 0.09) 
+gallop_turnspeed_rhinocroma: 1.25
+ # from 0.1 to 2 with step of 0.05 (default: 1.25) 
+gallop_staminacost_rhinocroma: 0.2
+ # from 0 to 1 with step of 0.05 (default: 0.2) 
+
+
+# Flyback:
+
+flyback_speed_rhinocroma: 0.015
+ # from 0.01 to 0.2 with step of 0.005 (default: 0.015) 
+flyback_turnspeed_rhinocroma: 1
+ # from 0.1 to 2 with step of 0.05 (default: 1) 
+
+
+# Slow Flight:
+
+glide_speed_rhinocroma: 0.036
+ # from 0.01 to 0.2 with step of 0.01 (default: 0.036) 
+glide_turnspeed_rhinocroma: 1.2
+ # from 0.1 to 2 with step of 0.05 (default: 1.2) 
+glide_staminacost_rhinocroma: 0
+ # from 0 to 1 with step of 0.05 (default: 0) 
+glide_ascendSpeed_rhinocroma: 1
+ # from 1 to 20 with step of 1 (default: 1) 
+glide_descendSpeed_rhinocroma: 6
+ # from 1 to 20 with step of 1 (default: 6) 
+
+
+# Fast Flight:
+
+fly_speed_rhinocroma: 0.053
+ # from 0.01 to 0.5 with step of 0.005 (default: 0.053) 
+fly_turnspeed_rhinocroma: 1.1
+ # from 0.1 to 2 with step of 0.05 (default: 1.1) 
+fly_staminacost_rhinocroma: 0.3
+ # from 0 to 1 with step of 0.05 (default: 0.3) 
+fly_ascendSpeed_rhinocroma: 4
+ # from 1 to 20 with step of 1 (default: 4) 
+fly_descendSpeed_rhinocroma: 5
+ # from 1 to 20 with step of 1 (default: 5) 
+
+
+# Slow Swim:
+
+swim_speed_rhinocroma: 0.027
+ # from 0.001 to 0.2 with step of 0.001 (default: 0.027) 
+swim_turnspeed_rhinocroma: 1
+ # from 0.1 to 2 with step of 0.05 (default: 1) 
+swim_staminacost_rhinocroma: 0
+ # from 0 to 1 with step of 0.05 (default: 0) 
+
+
+# Medium Swim:
+
+swimfast_speed_rhinocroma: 0.056
+ # from 0.001 to 0.2 with step of 0.001 (default: 0.056) 
+swimfast_turnspeed_rhinocroma: 0.9
+ # from 0.1 to 2 with step of 0.05 (default: 0.9) 
+swimfast_staminacost_rhinocroma: 0.1
+ # from 0 to 1 with step of 0.05 (default: 0.1) 
+
+
+# Fast Swim:
+
+swimsprint_speed_rhinocroma: 0.076
+ # from 0.001 to 0.2 with step of 0.001 (default: 0.076) 
+swimsprint_turnspeed_rhinocroma: 0.7
+ # from 0.1 to 2 with step of 0.05 (default: 0.7) 
+swimsprint_staminacost_rhinocroma: 0.5
+ # from 0 to 1 with step of 0.05 (default: 0.5) 
+
+
+# Swimback:
+
+swimback_speed_rhinocroma: 0.012
+ # from 0.001 to 0.1 with step of 0.001 (default: 0.012) 
+swimback_turnspeed_rhinocroma: 1
+ # from 0.1 to 2 with step of 0.05 (default: 1) 

@@ -1,0 +1,37 @@
+version: 4
+
+
+#################
+## Wild Horses ##
+#################
+
+WorldGenSpawnRateFerus: 1
+ # from 0 to 100 with step of 0.1 (default: 1) 
+RuntimeSpawnRateFerus: 1
+ # from 0 to 100 with step of 0.1 (default: 1) 
+saddlebreakCooldownWild: 0
+ # from 0 to 1 with step of 0.01 (default: 0) 
+saddlebreaksWildAvg: 22.5
+ # from 1 to 50 with step of 0.5 (default: 22.5) 
+saddlebreaksWildVar: 2.5
+ # from 0 to 10 with step of 0.5 (default: 2.5) 
+
+
+##################
+## Feral Horses ##
+##################
+
+saddlebreakCooldownFeral: 0
+ # from 0 to 1 with step of 0.01 (default: 0) 
+saddlebreaksFeralAvg: 5
+ # from 1 to 20 with step of 0.5 (default: 5) 
+saddlebreaksFeralVar: 1
+ # from 0 to 5 with step of 0.5 (default: 1) 
+
+
+##################
+## Tamed Horses ##
+##################
+
+allowbackpacks: true
+ #  (default: True) 

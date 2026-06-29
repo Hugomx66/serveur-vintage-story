@@ -9,7 +9,7 @@ services:
     restart: unless-stopped
     stop_grace_period: 60s
     ports:
-      - "42420:42420/udp"
+      - "7777:42420/udp"
     volumes:
       - .:/repo
     environment:

@@ -1,0 +1,29 @@
+version: 1
+
+# Whether flax strands should require a slow retting process to obtain fibres. If false, strands can be crafted into fibres 1:1 in the grid.
+FLAX_PROCESSING: true
+ #  (default: True) 
+
+# Whether tool recipes are changed to require string (cord or twine). If false, vanilla recipes are unchanged.
+TOOL_RECIPES: true
+ #  (default: True) 
+
+# Whether other recipes such as armor and crude wood construction are changed to require string (cord, twine, or rope). If false, vanilla recipes are unchanged.
+EQUIPMENT_RECIPES: true
+ #  (default: True) 
+
+# Whether recipes and drops are changed to make a clearer distinction between uses of hay and straw. If false, vanilla recipes and drops for hay and straw items are unchanged, although String Sense textures are still used.
+HAY_STRAW: true
+ #  (default: True) 
+
+# Whether rope recipes are changed to require only cord or twine. If false, vanilla recipes are unchanged.
+ROPE_RECIPES: true
+ #  (default: True) 
+
+# Whether VS Roofing stick and bamboo frames require rope, and thatch can only be made from straw. If false, VS Roofing default materials are required. IMPORTANT: If true, the game will crash when loading a world which contains old thatch roofing!
+STRICT_VS_ROOFING: false
+ #  (default: False) 
+
+# stringsense:config-sailboat-comment
+SAILBOAT: false
+ #  (default: False) 
