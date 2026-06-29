@@ -8,8 +8,7 @@ services:
     container_name: vintagestory-server
     restart: unless-stopped
     stop_grace_period: 60s
-    ports:
-      - "7777:42420/udp"
+    network_mode: host
     volumes:
       - .:/repo
     environment:

@@ -22,9 +22,13 @@ if [ -d "${REPO_DIR}/.git" ]; then
     git config user.email "${GIT_USER_EMAIL:-vintagestory@server.local}"
     git config user.name "${GIT_USER_NAME:-VintageStoryServer}"
 
+    # Nettoie un eventuel verrou laisse par un arret brutal precedent
+    rm -f "${REPO_DIR}/.git/index.lock"
+
     if [ -n "${GIT_TOKEN:-}" ]; then
         ORIGIN_URL=$(git remote get-url origin)
-        PUSH_URL=$(echo "${ORIGIN_URL}" | sed -E "s#https://#https://${GIT_USER_NAME:-token}:${GIT_TOKEN}@#")
+        CLEAN_URL=$(echo "${ORIGIN_URL}" | sed -E 's#https://[^@/]*@#https://#')
+        PUSH_URL=$(echo "${CLEAN_URL}" | sed -E "s#https://#https://${GIT_USER_NAME:-token}:${GIT_TOKEN}@#")
         git remote set-url origin "${PUSH_URL}"
     fi
 
@@ -43,9 +47,10 @@ git_save_and_push() {
     if [ "${GIT_ENABLED}" = true ]; then
         cd "${REPO_DIR}"
         echo "[git] Sauvegarde de la progression..."
-        git add -A
-        if ! git diff --cached --quiet; then
-            git commit -m "Sauvegarde automatique du serveur - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+        rm -f "${REPO_DIR}/.git/index.lock"
+        git add -A || echo "[git] Echec du git add, sauvegarde annulee."
+        if ! git diff --cached --quiet 2>/dev/null; then
+            git commit -m "Sauvegarde automatique du serveur - $(date -u +'%Y-%m-%d %H:%M:%S UTC')" || echo "[git] Echec du commit."
             git push origin "HEAD:${GIT_BRANCH:-main}" || echo "[git] Echec du push, la sauvegarde reste en local."
         else
             echo "[git] Rien de nouveau a sauvegarder."

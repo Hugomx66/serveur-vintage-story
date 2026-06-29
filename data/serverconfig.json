@@ -6,7 +6,7 @@
   "ServerDescription": null,
   "WelcomeMessage": "Welcome {0}, may you survive well and prosper",
   "Ip": null,
-  "Port": 42420,
+  "Port": 7777,
   "Upnp": false,
   "UpnpInfiniteLifetime": false,
   "CompressPackets": true,
