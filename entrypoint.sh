@@ -1,64 +1,47 @@
 #!/bin/bash
 set -euo pipefail
 
-VS_DATA="${VS_DATA:-/data}"
 VS_HOME="${VS_HOME:-/srv/vintagestory}"
+REPO_DIR="${REPO_DIR:-/repo}"
+VS_DATA="${VS_DATA:-${REPO_DIR}/data}"
 
 mkdir -p "${VS_DATA}/Mods" "${VS_DATA}/Saves" "${VS_DATA}/ModConfig"
 
 # ---------------------------------------------------------------------------
-# Git backup setup: /data is (optionally) backed by a GitHub repo so that the
-# world save survives container recreation and can be shared between players.
+# Le depot git du projet (code + save) est monte dans /repo. On synchronise
+# avec GitHub au demarrage (recuperer la derniere save) et a l'arret
+# (sauvegarder la progression), pour que tout le monde partage le meme etat.
 # ---------------------------------------------------------------------------
 GIT_ENABLED=false
 
-if [ -n "${GIT_REPO_URL:-}" ]; then
+if [ -d "${REPO_DIR}/.git" ]; then
     GIT_ENABLED=true
+    cd "${REPO_DIR}"
 
-    git config --global user.email "${GIT_USER_EMAIL:-vintagestory@server.local}"
-    git config --global user.name "${GIT_USER_NAME:-VintageStoryServer}"
-    git config --global --add safe.directory "${VS_DATA}"
+    git config --global --add safe.directory "${REPO_DIR}"
+    git config user.email "${GIT_USER_EMAIL:-vintagestory@server.local}"
+    git config user.name "${GIT_USER_NAME:-VintageStoryServer}"
 
-    # Build an authenticated URL if a token is provided (PAT auth over HTTPS)
-    PUSH_URL="${GIT_REPO_URL}"
     if [ -n "${GIT_TOKEN:-}" ]; then
-        PUSH_URL=$(echo "${GIT_REPO_URL}" | sed -E "s#https://#https://${GIT_USER_NAME:-token}:${GIT_TOKEN}@#")
+        ORIGIN_URL=$(git remote get-url origin)
+        PUSH_URL=$(echo "${ORIGIN_URL}" | sed -E "s#https://#https://${GIT_USER_NAME:-token}:${GIT_TOKEN}@#")
+        git remote set-url origin "${PUSH_URL}"
     fi
 
-    cd "${VS_DATA}"
-
-    if [ ! -d ".git" ]; then
-        echo "[git] Initialisation du depot dans ${VS_DATA}"
-        git init -b "${GIT_BRANCH:-main}"
-        git remote add origin "${PUSH_URL}"
-
-        if [ ! -f ".gitignore" ]; then
-            cat > .gitignore <<'EOF'
-# Les mods sont fournis manuellement par chaque hote, on ne les versionne pas
-Mods/
-Logs/
-*.log
-EOF
-        fi
-
-        # Tente de recuperer une sauvegarde existante sur le repo distant
-        if git fetch origin "${GIT_BRANCH:-main}" 2>/dev/null; then
-            echo "[git] Sauvegarde distante trouvee, recuperation..."
-            git reset --mixed "origin/${GIT_BRANCH:-main}" || true
-            git checkout -- . 2>/dev/null || true
-        else
-            echo "[git] Aucune sauvegarde distante existante, premier demarrage."
-        fi
+    BRANCH="${GIT_BRANCH:-main}"
+    echo "[git] Recuperation de la derniere progression depuis origin/${BRANCH}..."
+    if git fetch origin "${BRANCH}" 2>/dev/null; then
+        git merge --no-edit "origin/${BRANCH}" || echo "[git] Conflit de fusion, la progression locale est conservee telle quelle."
     else
-        echo "[git] Depot existant detecte, recuperation des dernieres donnees..."
-        git remote set-url origin "${PUSH_URL}" 2>/dev/null || git remote add origin "${PUSH_URL}"
-        git fetch origin "${GIT_BRANCH:-main}" 2>/dev/null && git reset --mixed "origin/${GIT_BRANCH:-main}" || true
+        echo "[git] Impossible de recuperer origin/${BRANCH} (premier demarrage ou hors-ligne)."
     fi
+else
+    echo "[git] Aucun depot git monte dans ${REPO_DIR}, la sauvegarde automatique est desactivee."
 fi
 
 git_save_and_push() {
     if [ "${GIT_ENABLED}" = true ]; then
-        cd "${VS_DATA}"
+        cd "${REPO_DIR}"
         echo "[git] Sauvegarde de la progression..."
         git add -A
         if ! git diff --cached --quiet; then
@@ -88,7 +71,7 @@ terminate() {
 trap terminate SIGTERM SIGINT
 
 cd "${VS_HOME}"
-mono VintagestoryServer.exe --dataPath "${VS_DATA}" "$@" &
+dotnet VintagestoryServer.dll --dataPath "${VS_DATA}" "$@" &
 SERVER_PID=$!
 
 wait "${SERVER_PID}"

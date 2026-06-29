@@ -1,2 +1,6 @@
 .env
-data/
+
+# Les mods sont fournis manuellement par chaque hote, on ne les versionne pas
+data/Mods/
+data/Logs/
+*.log

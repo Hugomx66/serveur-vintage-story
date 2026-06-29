@@ -11,9 +11,8 @@ services:
     ports:
       - "42420:42420/udp"
     volumes:
-      - ./data:/data
+      - .:/repo
     environment:
-      GIT_REPO_URL: "${GIT_REPO_URL:-}"
       GIT_TOKEN: "${GIT_TOKEN:-}"
       GIT_BRANCH: "${GIT_BRANCH:-main}"
       GIT_USER_NAME: "${GIT_USER_NAME:-VintageStoryServer}"
